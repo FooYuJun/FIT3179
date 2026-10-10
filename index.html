@@ -1,18 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
-<script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
-<script src="vega_lite_vis.js"></script>
-<title>First Vega-Lite graph </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cheapest European Cities</title>
+
+  <!-- Vega libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
 </head>
+
 <body>
-<h1>First Vega-Lite graph</h1>
-<div id="bar_chart">
-</div>
+  <h1>Cheapest European Cities</h1>
+
+  <!-- Chart will appear here -->
+  <div id="bar_chart"></div>
+
+  <!-- Load the chart specification -->
+  <script>
+    vegaEmbed(
+      "#bar_chart",
+      "./city_cost.json",
+      { actions: false }
+    ).catch(console.error);
+  </script>
 </body>
 </html>
