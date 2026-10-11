@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Annual records in the supplied reef fish, turtle, and whale/dolphin datasets.",
+  "data": { "url": "data/observations_by_year.csv?v=20261011-turtles2", "format": { "type": "csv", "parse": { "year": "number", "observations": "number" } } },
+  "width": "container",
+  "height": 360,
+  "mark": { "type": "line", "point": { "filled": true, "size": 58 }, "strokeWidth": 2.5 },
+  "encoding": {
+    "x": {
+      "field": "year", "type": "quantitative",
+      "scale": { "nice": false },
+      "axis": { "title": "Year", "format": "d", "tickMinStep": 1, "labelOverlap": true, "grid": false }
+    },
+    "y": {
+      "field": "observations", "type": "quantitative",
+      "axis": { "title": "Number of records", "format": "~s", "gridColor": "#e8eeee", "domain": false, "tickCount": 5 }
+    },
+    "color": {
+      "field": "group", "type": "nominal",
+      "scale": { "domain": ["Reef fish", "Turtles", "Whales and dolphins"], "range": ["#168b83", "#e27a49", "#315f9e"] },
+      "legend": { "title": "Dataset", "orient": "top", "direction": "horizontal", "symbolType": "stroke", "symbolStrokeWidth": 3 }
+    },
+    "tooltip": [
+      { "field": "group", "type": "nominal", "title": "Dataset" },
+      { "field": "year", "type": "quantitative", "title": "Year", "format": "d" },
+      { "field": "observations", "type": "quantitative", "title": "Records", "format": "," }
+    ]
+  },
+  "config": {
+    "background": "transparent",
+    "font": "Arial",
+    "axis": { "labelColor": "#526b72", "titleColor": "#123744", "titleFontWeight": 600, "labelFontSize": 12, "titleFontSize": 13, "tickColor": "#cbd8d7" },
+    "legend": { "labelColor": "#123744", "titleColor": "#123744", "labelFontSize": 12, "titleFontSize": 12, "padding": 8 },
+    "view": { "stroke": null }
+  }
+}
