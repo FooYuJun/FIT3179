@@ -201,19 +201,21 @@
   "config": {
 
     "axis": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans"
+      "labelFont": "Arial",
+      "titleFont": "Arial"
     },
 
     "legend": {
-      "labelFont": "Open Sans",
-      "titleFont": "Open Sans"
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelFontSize": 14,
+      "titleFontSize": 16
     },
 
     "title": {
-      "font": "Open Sans",
+      "font": "Arial",
       "fontSize": 20,
-      "subtitleFont": "Open Sans",
+      "subtitleFont": "Arial",
       "subtitleFontSize": 13
     },
 
