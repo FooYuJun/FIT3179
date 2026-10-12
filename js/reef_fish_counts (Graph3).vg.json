@@ -1,0 +1,132 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Reef-Fish Families",
+    "subtitle": "Recorded occurrences across the top 15 families"
+  },
+  "width": 500,
+  "height": 500,
+  "data": {
+    "url": "data/reef_fish_family_counts.csv",
+    "format": {"type": "csv"}
+  },
+  "transform": [
+    {
+      "calculate": "toNumber(datum.percentage)",
+      "as": "percentage_value"
+    },
+    {
+      "window": [{"op": "rank", "as": "percentage_rank"}],
+      "sort": [{"field": "percentage_value", "order": "descending"}]
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "arc",
+        "innerRadius": 75,
+        "outerRadius": 200,
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "theta": {
+          "field": "record_count",
+          "type": "quantitative",
+          "stack": true
+        },
+        "radius": {
+          "field": "record_count",
+          "type": "quantitative",
+          "scale": {"type": "sqrt", "range": [80, 200]},
+          "legend": null
+        },
+        "color": {
+          "condition": {
+            "test": "datum.percentage_rank == 1",
+            "value": "#F28C56"
+          },
+          "field": "family",
+          "type": "nominal",
+          "scale": {"scheme": "tableau20"},
+          "legend": {
+            "title": "Fish Family",
+            "orient": "right"
+          }
+        },
+        "tooltip": [
+          {"field": "family", "type": "nominal", "title": "Fish Family"},
+          {
+            "field": "record_count",
+            "type": "quantitative",
+            "title": "Recorded Occurrences",
+            "format": ","
+          },
+          {
+            "field": "reported_abundance",
+            "type": "quantitative",
+            "title": "Reported Abundance",
+            "format": ","
+          },
+          {
+            "field": "percentage_value",
+            "type": "quantitative",
+            "title": "Share of Displayed Records",
+            "format": ".2f"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.percentage_rank == 1"}
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 11,
+        "fontWeight": "bold",
+        "color": "#123746",
+        "align": "center",
+        "dy": -12
+      },
+      "encoding": {
+        "x": {"datum": 250, "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "y": {"datum": 250, "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "text": {"field": "family", "type": "nominal"}
+      }
+    },
+    {
+      "transform": [
+        {"filter": "datum.percentage_rank == 1"},
+        {
+          "calculate": "format(datum.percentage_value, '.2f') + '%'",
+          "as": "percentage_label"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "fontSize": 19,
+        "fontWeight": "bold",
+        "color": "#F28C56",
+        "align": "center",
+        "dy": 12
+      },
+      "encoding": {
+        "x": {"datum": 250, "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "y": {"datum": 250, "type": "quantitative", "scale": {"domain": [0, 500]}, "axis": null},
+        "text": {"field": "percentage_label", "type": "nominal"}
+      }
+    }
+  ],
+  "config": {
+    "background": "#F5F9F8",
+    "view": {"stroke": null},
+    "font": "Arial",
+    "legend": {
+      "padding": 12,
+      "rowPadding": 5,
+      "labelFontSize": 11,
+      "titleFontSize": 12
+    }
+  }
+}
