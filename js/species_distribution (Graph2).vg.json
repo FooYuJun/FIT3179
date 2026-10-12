@@ -3,7 +3,7 @@
 
   "title": {
     "text": "Where are Australia's Marine Species Observed?",
-    "subtitle": "Recorded occurrence locations of reef fish, turtles and whales/dolphins"
+    "subtitle": "Recorded occurrence locations of reef fish, turtles and whales"
   },
 
   "background": "#E7F3F4",
@@ -87,7 +87,7 @@
     },
     {
       "data": {
-        "url": "data/marine_species_locations.csv",
+        "url": "../data/marine_species_locations.csv",
         "format": {
           "type": "csv"
         }
@@ -153,7 +153,7 @@
             "domain": [
               "Reef Fish",
               "Turtle",
-              "Whale/Dolphin"
+              "Whale"
             ]
           }
         },
