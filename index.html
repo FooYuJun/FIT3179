@@ -5,73 +5,229 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A visual exploration of marine life observations and ocean conditions.">
   <title>DV2 - Australia Marine Life</title>
+
   <link rel="stylesheet" href="css/styles.css">
+
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
+
 <body>
+
+  <!-- ==================== HEADER ==================== -->
   <header class="hero" id="top">
     <div class="hero-inner">
       <p class="eyebrow">MARINE LIFE IN AUSTRALIA</p>
-      <h1>LIFE IN<br><span>THE DEEP</span></h1>
-      <p class="subtitle">Exploring life across oceans in Australia</p>
-      <p class="intro">Visualise marine species, track changes over time, and discover how ocean environments support diverse marine ecosystems.</p>
+      <h1>
+        LIFE IN<br>
+        <span>THE DEEP</span>
+      </h1>
+      <p class="subtitle">
+        Exploring life across oceans in Australia
+      </p>
+
+      <p class="intro">
+        Visualise marine species, track changes over time, and discover
+        how ocean environments support diverse marine ecosystems.
+      </p>
+
       <nav aria-label="Page sections">
-        <a href="#observations">01 <span>Observations</span></a>
-        <a href="#distribution">02 <span>Distribution</span></a>
-        <a href="#biodiversity">03 <span>Biodiversity</span></a>
+        <a href="#observations">
+          01 <span>Observations</span>
+        </a>
+        <a href="#distribution">
+          02 <span>Distribution</span>
+        </a>
+        <a href="#biodiversity">
+          03 <span>Biodiversity</span>
+        </a>
       </nav>
+
     </div>
   </header>
 
   <main>
+    <!--Introduction-->
     <section class="opening">
       <p class="section-kicker">Introduction</p>
-      <h2>How much do we know about marine life?</h2>
-      <p>Australia's oceans support an extraordinary range of marine species. 
-        By combining marine wildlife observations with environmental data, this visualisation explores where species are found, how sightings have changed over time, and how Australia's changing marine environment may be affecting these ecosystems.</p>
+      <h2>
+        How much do we know about marine life?
+      </h2>
+      <p>
+        Australia's oceans support an extraordinary range of marine species.
+        By combining marine wildlife observations with environmental data,
+        this visualisation explores where species are found, how sightings
+        have changed over time, and how Australia's changing marine environment
+        may be affecting these ecosystems.
+      </p>
     </section>
 
+
+    <!-- GRAPH 1 -->
     <section class="visual-section" id="observations">
       <div class="section-heading">
-        <p class="section-kicker">01 / OBSERVATION HISTORY</p>
-        <h2>Marine observations over time</h2>
-        <p class="chart-question">How does the observation record change across reef fish, turtles, and whales and dolphins?</p>
+        <p class="section-kicker">
+          01 / OBSERVATION HISTORY
+        </p>
+        <h2>
+          Marine observations over time
+        </h2>
+        <p class="chart-question">
+          How does the observation record change across reef fish,
+          turtles, and whales and dolphins?
+        </p>
       </div>
+
       <div class="chart-card">
-        <div id="observations-chart" aria-label="Line chart of annual marine observation records by dataset"></div>
-        <p class="chart-note">Each line counts records in the supplied dataset, not the number of animals living in the ocean. The datasets cover different time periods, so a missing year means no record was available in that dataset for that year; it does not prove that the species were absent.</p>
+        <div
+          id="observations-chart"
+          aria-label="Line chart of annual marine observation records by dataset">
+        </div>
+        <p class="chart-note">
+          Each line counts records in the supplied dataset, not the number
+          of animals living in the ocean. The datasets cover different time
+          periods, so a missing year means no record was available in that
+          dataset for that year; it does not prove that the species were absent.
+        </p>
       </div>
-      <p class="source-note"><strong>Data:</strong> Reef fish, turtle, and Australian whale/dolphin occurrence datasets supplied for this project. Counts were aggregated by calendar year from each dataset's event date.</p>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Reef fish, turtle, and Australian whale/dolphin occurrence datasets
+        supplied for this project. Counts were aggregated by calendar year
+        from each dataset's event date.
+      </p>
     </section>
 
-    <section class="placeholder-section" id="distribution">
-      <p class="section-kicker">02 / WHERE LIFE IS RECORDED</p>
-      <h2>Species distribution</h2>
-      <p>Next: map the recorded locations of turtles, reef fish, and marine mammals.</p>
+    <!-- GRAPH 2 -->
+    <section class="visual-section" id="distribution">
+      <div class="section-heading">
+        <p class="section-kicker">
+          02 / WHERE LIFE IS RECORDED
+        </p>
+        <h2>
+          Where are Australia's marine species observed?
+        </h2>
+        <p class="chart-question">
+          Where are reef fish, turtles, and whales and dolphins recorded
+          across Australian waters?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div
+          id="species-distribution-chart"
+          aria-label="Map showing recorded locations of reef fish, turtles, and whales and dolphins">
+        </div>
+
+        <p class="chart-note">
+          Points represent recorded occurrence locations rather than
+          estimates of population size. Point size indicates the number
+          of records at the same location, while colour identifies the
+          marine group. Use the filters to explore different groups
+          and years.
+        </p>
+      </div>
+      <p class="source-note">
+        <strong>Data:</strong>
+        Reef fish, turtle, and Australian whale/dolphin occurrence datasets
+        supplied for this project. Geographic coordinates were aggregated
+        by location, marine group, and year.
+      </p>
+
     </section>
+
+    <!-- GRAPH 3 -->
     <section class="placeholder-section" id="biodiversity">
-      <p class="section-kicker">03 / WHO IS RECORDED</p>
-      <h2>Biodiversity patterns</h2>
-      <p>Next: compare taxonomic diversity and explore changes within each marine group.</p>
+      <p class="section-kicker">
+        03 / WHO IS RECORDED
+      </p>
+      <h2>
+        Biodiversity patterns
+      </h2>
+      <p>
+        Next: compare taxonomic diversity and explore changes within
+        each marine group.
+      </p>
     </section>
   </main>
+
+  <!-- FOOTER -->
   <footer>
-    <p>Australian Marine Life · Data Visualisation 2</p>
-    <p>Created by <strong>Foo Yu Jun</strong> · Updated <strong>[Date]</strong></p>
-    <p class="footer-small">Data sources should be cited here with their original URLs and licences. Acknowledge any generative AI use in accordance with the assignment requirements.</p>
+    <p>
+      Australian Marine Life · Data Visualisation 2
+    </p>
+    <p>
+      Created by <strong>Foo Yu Jun</strong> · Updated <strong>[Date]</strong>
+    </p>
+    <p class="footer-small">
+      Data sources should be cited here with their original URLs and licences.
+      Acknowledge any generative AI use in accordance with the assignment
+      requirements.
+    </p>
   </footer>
+
+  <!-- VEGA-LITE -->
   <script>
-    vegaEmbed('#observations-chart', 'js/observations_over_time.vg.json', {
-      actions: { export: true, source: true, compiled: false, editor: false },
-      renderer: 'svg',
-      tooltip: { theme: 'custom' }
-    }).catch((error) => {
+    /*
+     * GRAPH 1
+     * Marine observations over time
+     */
+    vegaEmbed(
+      '#observations-chart',
+      'js/observations_records (Graph1).vg.json',
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: 'svg',
+        tooltip: {
+          theme: 'custom'
+        }
+      }
+    ).catch((error) => {
+
       document.querySelector('#observations-chart').innerHTML =
-        '<p class="chart-error">The chart could not be loaded. Check that the data and chart JSON paths are correct.</p>';
+        '<p class="chart-error">' +
+        'The observation chart could not be loaded. ' +
+        'Check that the Graph 1 JSON and data paths are correct.' +
+        '</p>';
+
       console.error(error);
     });
+
+    /*
+     * GRAPH 2
+     * Species distribution map
+     */
+    vegaEmbed(
+      '#species-distribution-chart',
+      'js/species_distribution (Graph2).vg.json',
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: 'svg',
+        tooltip: {
+          theme: 'custom'
+        }
+      }
+    ).catch((error) => {
+      document.querySelector('#species-distribution-chart').innerHTML =
+        '<p class="chart-error">' +
+        'The species distribution map could not be loaded. ' +
+        'Check that the Graph 2 JSON and data paths are correct.' +
+        '</p>';
+      console.error(error);
+    });
+
   </script>
 </body>
 </html>
