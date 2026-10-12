@@ -1,0 +1,224 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Where are Australia's Marine Species Observed?",
+    "subtitle": "Recorded occurrence locations of reef fish, turtles and whales/dolphins"
+  },
+
+  "background": "#E7F3F4",
+
+  "width": 820,
+  "height": 650,
+
+  "projection": {
+    "type": "equalEarth",
+    "center": [134, -25],
+    "scale": 850
+  },
+
+  "params": [
+    {
+      "name": "groupSelect",
+      "value": "All",
+      "bind": {
+        "input": "select",
+        "options": [
+          "All",
+          "Reef Fish",
+          "Turtle",
+          "Whale"
+        ],
+        "name": "Marine group: "
+      }
+    },
+
+    {
+      "name": "yearSelect",
+      "value": 2023,
+      "bind": {
+        "input": "range",
+        "min": 2006,
+        "max": 2026,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
+  ],
+
+  "layer": [
+
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+
+      "mark": {
+        "type": "geoshape",
+        "fill": "#F5F2E8",
+        "stroke": "#999999",
+        "strokeWidth": 0.7
+      }
+      
+    },
+    {
+      "data": {
+        "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.name == 'Australia'"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#DCEAE1",
+        "stroke": "#799E99",
+        "strokeWidth": 1.2
+      }
+    },
+    {
+      "data": {
+        "url": "../data/marine_species_locations.csv",
+        "format": {
+          "type": "csv"
+        }
+      },
+
+      "transform": [
+
+        {
+          "calculate": "toNumber(datum.latitude)",
+          "as": "lat_num"
+        },
+
+        {
+          "calculate": "toNumber(datum.longitude)",
+          "as": "lon_num"
+        },
+
+        {
+          "calculate": "toNumber(datum.year)",
+          "as": "year_num"
+        },
+
+        {
+          "filter": "datum.lat_num >= -45 && datum.lat_num <= -8 && datum.lon_num >= 105 && datum.lon_num <= 160"
+        },
+
+        {
+          "filter": "groupSelect == 'All' || datum.marine_group == groupSelect"
+        },
+
+        {
+          "filter": "datum.year_num == yearSelect"
+        }
+
+      ],
+
+      "mark": {
+        "type": "circle",
+        "size": 72,
+        "opacity": 0.82,
+        "stroke": "#FFFFFF",
+        "strokeWidth": 0.8,
+        "cursor": "pointer"
+      },
+
+      "encoding": {
+
+        "longitude": {
+          "field": "lon_num",
+          "type": "quantitative"
+        },
+
+        "latitude": {
+          "field": "lat_num",
+          "type": "quantitative"
+        },
+
+        "color": {
+          "field": "marine_group",
+          "type": "nominal",
+          "title": "Marine group",
+          "scale": {
+            "domain": [
+              "Reef Fish",
+              "Turtle",
+              "Whale/Dolphin"
+            ]
+          }
+        },
+
+        "tooltip": [
+
+          {
+            "field": "marine_group",
+            "type": "nominal",
+            "title": "Marine group"
+          },
+
+          {
+            "field": "species",
+            "type": "nominal",
+            "title": "Species"
+          },
+
+          {
+            "field": "year_num",
+            "type": "quantitative",
+            "title": "Year",
+            "format": "d"
+          },
+
+          {
+            "field": "lat_num",
+            "type": "quantitative",
+            "title": "Latitude",
+            "format": ".3f"
+          },
+
+          {
+            "field": "lon_num",
+            "type": "quantitative",
+            "title": "Longitude",
+            "format": ".3f"
+          }
+
+        ]
+      }
+    }
+  ],
+
+  "config": {
+
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans"
+    },
+
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans"
+    },
+
+    "title": {
+      "font": "Open Sans",
+      "fontSize": 20,
+      "subtitleFont": "Open Sans",
+      "subtitleFontSize": 13
+    },
+
+    "view": {
+      "stroke": null
+    }
+  }
+}
