@@ -7,7 +7,7 @@
   <title>DV2 - Australia Marine Life</title>
 
   <link rel="stylesheet" href="css/styles.css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
@@ -139,16 +139,50 @@
     </section>
 
     <!-- GRAPH 3 -->
-    <section class="placeholder-section" id="biodiversity">
-      <p class="section-kicker">
-        03 / WHO IS RECORDED
-      </p>
-      <h2>
-        Biodiversity patterns
-      </h2>
-      <p>
-        Next: compare taxonomic diversity and explore changes within
-        each marine group.
+    <section class="visual-section" id="biodiversity">
+      <div class="section-heading">
+        <p class="section-kicker">03 / REEF-FISH BIODIVERSITY</p>
+        <h2>Which reef-fish families dominate?</h2>
+        <p class="chart-question">
+          How are recorded occurrences distributed across the most frequently
+          recorded reef-fish families?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-layout">
+          <div
+            id="reef-fish-radial"
+            class="radial-chart"
+            aria-label="Radial bar chart showing recorded occurrences by reef-fish family">
+          </div>
+
+          <aside class="chart-annotation">
+            <h3>Understanding the chart</h3>
+
+            <p>
+              Each segment represents a reef-fish family among the 15 families
+              with the highest number of recorded occurrences.
+            </p>
+
+            <p>
+              Longer bars indicate more recorded occurrences. Hover over a segment
+              to explore its record count and reported abundance.
+            </p>
+
+            <p class="annotation-caveat">
+              More records do not necessarily mean more individual fish in the
+              ocean. The results reflect the supplied dataset.
+            </p>
+          </aside>
+        </div>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Reef-fish dataset supplied for this project. Records were grouped
+        by fish family, and the 15 families with the most recorded occurrences
+        were selected for comparison.
       </p>
     </section>
   </main>
@@ -228,6 +262,34 @@
       console.error(error);
     });
 
+    /*
+     * GRAPH 3
+     * Reef-fish radial bar chart
+     */
+    vegaEmbed(
+      "#reef-fish-radial",
+      "js/reef_fish_counts (Graph3).vg.json",
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: "svg",
+        tooltip: {
+          theme: "custom"
+        }
+      }
+    ).catch((error) => {
+      document.querySelector("#reef-fish-radial").innerHTML =
+        '<p class="chart-error">' +
+        'The reef-fish radial chart could not be loaded. ' +
+        'Check the Graph 3 JSON file, CSV path, and CSV columns.' +
+        '</p>';
+
+      console.error(error);
+    });
   </script>
 </body>
 </html>
