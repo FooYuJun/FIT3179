@@ -87,7 +87,7 @@
     },
     {
       "data": {
-        "url": "../data/marine_species_locations.csv",
+        "url": "data/marine_species_locations.csv",
         "format": {
           "type": "csv"
         }
