@@ -1,0 +1,121 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Fish Family Diversity Across the Years",
+    "subtitle": "Number of distinct fish species recorded within each family and year"
+  },
+
+  "width": 800,
+  "height": 560,
+
+  "data": {
+    "url": "data/fish_family_year_heatmap.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+
+  "transform": [
+    {
+      "calculate": "datum.year + ''",
+      "as": "year_label"
+    }
+  ],
+
+  "mark": {
+    "type": "rect",
+    "stroke": "#ffffff",
+    "strokeWidth": 0.6
+  },
+
+  "encoding": {
+
+    "x": {
+      "field": "year_label",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {
+        "labelAngle": 0,
+        "labelOverlap": false,
+        "labelFontSize": 11,
+        "titleFontSize": 13
+      }
+    },
+
+    "y": {
+      "field": "family",
+      "type": "ordinal",
+      "title": "Fish family",
+      "sort": {
+        "field": "species_diversity",
+        "op": "sum",
+        "order": "descending"
+      },
+      "axis": {
+        "labelFontSize": 11,
+        "titleFontSize": 13,
+        "labelLimit": 150
+      }
+    },
+
+    "color": {
+      "field": "species_diversity",
+      "type": "quantitative",
+      "title": "Distinct species",
+      "scale": {
+        "scheme": "tealblues"
+      },
+      "legend": {
+        "orient": "right",
+        "titleFontSize": 12,
+        "labelFontSize": 11
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "family",
+        "type": "nominal",
+        "title": "Fish family"
+      },
+      {
+        "field": "year",
+        "type": "quantitative",
+        "title": "Year"
+      },
+      {
+        "field": "species_diversity",
+        "type": "quantitative",
+        "title": "Distinct species"
+      },
+      {
+        "field": "observations",
+        "type": "quantitative",
+        "title": "Observations"
+      }
+    ]
+  },
+
+  "config": {
+    "font": "Arial",
+    "title": {
+        "font": "Arial",
+        "fontSize": 20,
+        "subtitleFont": "Arial",
+        "subtitleFontSize": 13
+        },
+    "axis": {
+        "labelFont": "Arial",
+        "titleFont": "Arial"
+        },
+    "header": {
+        "labelFont": "Arial",
+        "titleFont": "Arial"
+        },
+    "legend": {
+        "labelFont": "Arial",
+        "titleFont": "Arial"
+        }
+    }
+}

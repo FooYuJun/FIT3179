@@ -1,0 +1,360 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Seasonal Patterns in Turtle Nesting Observations",
+        "subtitle": "Monthly observations compared across years",
+        "anchor": "start"
+    },
+    "vconcat": [
+        {
+            "hconcat": [
+                {
+                    "width": 210,
+                    "height": 130,
+                    "title": {
+                        "text": "Year 1",
+                        "fontSize": 15
+                    },
+                    "data": {
+                        "url": "data/turtle_nesting_calendar.csv"
+                    },
+                    "transform": [
+                        {
+                            "filter": "datum.year == 2020"
+                        }
+                    ],
+                    "mark": {
+                        "type": "line",
+                        "point": true,
+                        "color": "#168c8c"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "month_name",
+                            "title": "Month",
+                            "type": "ordinal",
+                            "sort": [
+                                "Jan",
+                                "Feb",
+                                "Mar",
+                                "Apr",
+                                "May",
+                                "Jun",
+                                "Jul",
+                                "Aug",
+                                "Sep",
+                                "Oct",
+                                "Nov",
+                                "Dec"
+                            ]
+                        },
+                        "y": {
+                            "field": "nesting_observations",
+                            "title": "No. of Nesting",
+                            "type": "quantitative"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "year",
+                                "type": "ordinal",
+                                "title": "Year"
+                            },
+                            {
+                                "field": "month_name",
+                                "type": "ordinal",
+                                "title": "Month"
+                            },
+                            {
+                                "field": "nesting_observations",
+                                "type": "quantitative",
+                                "title": "Nesting observations"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "width": 210,
+                    "height": 130,
+                    "title": {
+                        "text": "Year 2",
+                        "fontSize": 15
+                    },
+                    "data": {
+                        "url": "data/turtle_nesting_calendar.csv"
+                    },
+                    "transform": [
+                        {
+                            "filter": "datum.year == 2021"
+                        }
+                    ],
+                    "mark": {
+                        "type": "line",
+                        "point": true,
+                        "color": "#168c8c"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "month_name",
+                            "title": "Month",
+                            "type": "ordinal",
+                            "sort": [
+                                "Jan",
+                                "Feb",
+                                "Mar",
+                                "Apr",
+                                "May",
+                                "Jun",
+                                "Jul",
+                                "Aug",
+                                "Sep",
+                                "Oct",
+                                "Nov",
+                                "Dec"
+                            ]
+                        },
+                        "y": {
+                            "field": "nesting_observations",
+                            "title": "No. of Nesting",
+                            "type": "quantitative"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "year",
+                                "type": "ordinal",
+                                "title": "Year"
+                            },
+                            {
+                                "field": "month_name",
+                                "type": "ordinal",
+                                "title": "Month"
+                            },
+                            {
+                                "field": "nesting_observations",
+                                "type": "quantitative",
+                                "title": "Nesting observations"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "hconcat": [
+                {
+                    "width": 210,
+                    "height": 130,
+                    "title": {
+                        "text": "Year 3",
+                        "fontSize": 15
+                    },
+                    "data": {
+                        "url": "data/turtle_nesting_calendar.csv"
+                    },
+                    "transform": [
+                        {
+                            "filter": "datum.year == 2022"
+                        }
+                    ],
+                    "mark": {
+                        "type": "line",
+                        "point": true,
+                        "color": "#168c8c"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "month_name",
+                            "title": "Month",
+                            "type": "ordinal",
+                            "sort": [
+                                "Jan",
+                                "Feb",
+                                "Mar",
+                                "Apr",
+                                "May",
+                                "Jun",
+                                "Jul",
+                                "Aug",
+                                "Sep",
+                                "Oct",
+                                "Nov",
+                                "Dec"
+                            ]
+                        },
+                        "y": {
+                            "field": "nesting_observations",
+                            "title": "No. of Nesting",
+                            "type": "quantitative"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "year",
+                                "type": "ordinal",
+                                "title": "Year"
+                            },
+                            {
+                                "field": "month_name",
+                                "type": "ordinal",
+                                "title": "Month"
+                            },
+                            {
+                                "field": "nesting_observations",
+                                "type": "quantitative",
+                                "title": "Nesting observations"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "width": 210,
+                    "height": 130,
+                    "title": {
+                        "text": "Year 5",
+                        "fontSize": 15
+                    },
+                    "data": {
+                        "url": "data/turtle_nesting_calendar.csv"
+                    },
+                    "transform": [
+                        {
+                            "filter": "datum.year == 2023"
+                        }
+                    ],
+                    "mark": {
+                        "type": "line",
+                        "point": true,
+                        "color": "#168c8c"
+                    },
+                    "encoding": {
+                        "x": {
+                            "field": "month_name",
+                            "title": "Month",
+                            "type": "ordinal",
+                            "sort": [
+                                "Jan",
+                                "Feb",
+                                "Mar",
+                                "Apr",
+                                "May",
+                                "Jun",
+                                "Jul",
+                                "Aug",
+                                "Sep",
+                                "Oct",
+                                "Nov",
+                                "Dec"
+                            ]
+                        },
+                        "y": {
+                            "field": "nesting_observations",
+                            "title": "No. of Nesting",
+                            "type": "quantitative"
+                        },
+                        "tooltip": [
+                            {
+                                "field": "year",
+                                "type": "ordinal",
+                                "title": "Year"
+                            },
+                            {
+                                "field": "month_name",
+                                "type": "ordinal",
+                                "title": "Month"
+                            },
+                            {
+                                "field": "nesting_observations",
+                                "type": "quantitative",
+                                "title": "Nesting observations"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "width": 210,
+            "height": 130,
+            "title": {
+                "text": "Year 5",
+                "fontSize": 15
+            },
+            "data": {
+                "url": "data/turtle_nesting_calendar.csv"
+            },
+            "transform": [
+                {
+                    "filter": "datum.year == 2024"
+                }
+            ],
+            "mark": {
+                "type": "line",
+                "point": true,
+                "color": "#168c8c"
+            },
+            "encoding": {
+                "x": {
+                    "field": "month_name",
+                    "title": "Month",
+                    "type": "ordinal",
+                    "sort": [
+                        "Jan",
+                        "Feb",
+                        "Mar",
+                        "Apr",
+                        "May",
+                        "Jun",
+                        "Jul",
+                        "Aug",
+                        "Sep",
+                        "Oct",
+                        "Nov",
+                        "Dec"
+                    ]
+                },
+                "y": {
+                    "field": "nesting_observations",
+                    "title": "No. of Nesting",
+                    "type": "quantitative"
+                },
+                "tooltip": [
+                    {
+                        "field": "year",
+                        "type": "ordinal",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "month_name",
+                        "type": "ordinal",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "nesting_observations",
+                        "type": "quantitative",
+                        "title": "Nesting observations"
+                    }
+                ]
+            }
+        }
+    ],
+    "spacing": 20,
+    "config": {
+        "font": "Arial",
+        "title": {
+            "font": "Arial",
+            "subtitleFont": "Arial",
+            "fontSize": 20,
+            "subtitleFontSize": 13
+        },
+        "axis": {
+            "labelFont": "Arial",
+            "titleFont": "Arial"
+        },
+        "header": {
+            "labelFont": "Arial",
+            "titleFont": "Arial"
+        },
+        "legend": {
+            "labelFont": "Arial",
+            "titleFont": "Arial"
+        }
+    }
+}
