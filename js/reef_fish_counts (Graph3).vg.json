@@ -4,7 +4,7 @@
     "text": "Reef-Fish Families",
     "subtitle": "Recorded occurrences across the top 15 families"
   },
-  "width": 500,
+  "width": 380,
   "height": 500,
   "data": {
     "url": "data/reef_fish_family_counts.csv",
@@ -122,8 +122,14 @@
     "background": "#F5F9F8",
     "view": {"stroke": null},
     "font": "Arial",
+    "title": {
+      "font": "Arial",
+      "fontSize": 20,
+      "subtitleFont": "Arial",
+      "subtitleFontSize": 13
+    },
     "legend": {
-      "padding": 12,
+      "padding": 15,
       "rowPadding": 5,
       "labelFontSize": 11,
       "titleFontSize": 12
