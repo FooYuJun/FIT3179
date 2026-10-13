@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "Annual records in the supplied reef fish, turtle, and whale/dolphin datasets.",
+  "description": "Annual records in the supplied reef fish, turtle, and whale datasets.",
   "data": { "url": "data/marine_observations_by_year.csv", "format": { "type": "csv", "parse": { "year": "number", "observations": "number" } } },
   "width": "container",
   "height": 360,
@@ -17,7 +17,7 @@
     },
     "color": {
       "field": "marine_group", "type": "nominal",
-      "scale": { "domain": ["Reef Fish", "Turtle", "Whale/Dolphin"], "range": ["#168b83", "#e27a49", "#315f9e"] },
+      "scale": { "domain": ["Reef Fish", "Turtle", "Whale"], "range": ["#168b83", "#e27a49", "#315f9e"] },
       "legend": { "title": "Dataset", "orient": "top", "direction": "horizontal", "symbolType": "stroke", "symbolStrokeWidth": 3 }
     },
     "tooltip": [
