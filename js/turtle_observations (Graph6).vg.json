@@ -1,0 +1,166 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Which Months Have the Most Turtle Observations?",
+        "subtitle": "Monthly turtle observation records across all available years"
+    },
+    "background": "#E7F3F4",
+    "width": 580,
+    "height": 400,
+    "data": {
+        "url": "data/turtle_monthly_observations.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "transform": [
+        {
+            "calculate": "toNumber(datum.month)",
+            "as": "month_num"
+        },
+        {
+            "calculate": "toNumber(datum.observations)",
+            "as": "records"
+        },
+        {
+            "aggregate": [
+                {
+                    "op": "sum",
+                    "field": "records",
+                    "as": "total_records"
+                }
+            ],
+            "groupby": [
+                "month_num"
+            ]
+        },
+        {
+            "calculate": "['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][datum.month_num-1]",
+            "as": "month_name"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "rule",
+                "stroke": "#267A98",
+                "strokeWidth": 3,
+                "opacity": 1
+            },
+            "encoding": {
+                "x": {
+                    "field": "total_records",
+                    "type": "quantitative",
+                    "title": "Records",
+                    "scale": {
+                        "zero": true
+                    }
+                },
+                "x2": {
+                    "datum": 0
+                },
+                "y": {
+                    "field": "month_name",
+                    "type": "ordinal",
+                    "sort": {
+                        "field": "total_records",
+                        "order": "descending"
+                    },
+                    "title": "Month"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "point",
+                "filled": true,
+                "size": 180,
+                "opacity": 1,
+                "stroke": "#174D63",
+                "strokeWidth": 1
+            },
+            "encoding": {
+                "x": {
+                    "field": "total_records",
+                    "type": "quantitative",
+                    "title": "Records"
+                },
+                "y": {
+                    "field": "month_name",
+                    "type": "ordinal",
+                    "sort": {
+                        "field": "total_records",
+                        "order": "descending"
+                    },
+                    "title": "Month"
+                },
+                "color": {
+                    "condition": {
+                        "test": "datum.total_records == max(datum.total_records)",
+                        "value": "#E76F51"
+                    },
+                    "value": "#65AFC4",
+                    "legend": null
+                },
+                "tooltip": [
+                    {
+                        "field": "month_name",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "total_records",
+                        "title": "Records",
+                        "format": ","
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "left",
+                "baseline": "middle",
+                "dx": 9,
+                "fontSize": 11,
+                "color": "#263746"
+            },
+            "encoding": {
+                "x": {
+                    "field": "total_records",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "month_name",
+                    "type": "ordinal",
+                    "sort": {
+                        "field": "total_records",
+                        "order": "descending"
+                    }
+                },
+                "text": {
+                    "field": "total_records",
+                    "type": "quantitative",
+                    "format": ","
+                }
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "title": {
+            "font": "Arial",
+            "subtitleFont": "Arial",
+            "fontSize": 20,
+            "subtitleFontSize": 13
+        },
+        "axis": {
+            "labelFontSize": 11,
+            "titleFontSize": 13,
+            "gridColor": "#D5E0E3",
+            "labelFont": "Arial",
+            "titleFont": "Arial"
+        }
+    }
+}
