@@ -208,8 +208,8 @@
     "legend": {
       "labelFont": "Arial",
       "titleFont": "Arial",
-      "labelFontSize": 14,
-      "titleFontSize": 16
+      "labelFontSize": 12,
+      "titleFontSize": 12
     },
 
     "title": {
