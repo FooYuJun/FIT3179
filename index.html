@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -48,6 +49,9 @@
         <a href="#turtle-seasonality">
           05 <span>Turtle seasonality</span>
         </a>
+        <a href="#turtle-observation">
+          06 <span>Turtle observation</span>
+        </a>
       </nav>
 
     </div>
@@ -86,9 +90,7 @@
       </div>
 
       <div class="chart-card">
-        <div
-          id="observations-chart"
-          aria-label="Line chart of annual marine observation records by dataset">
+        <div id="observations-chart" aria-label="Line chart of annual marine observation records by dataset">
         </div>
         <p class="chart-note">
           Each line counts records in the supplied dataset, not the number
@@ -122,8 +124,7 @@
       </div>
 
       <div class="chart-card">
-        <div
-          id="species-distribution-chart"
+        <div id="species-distribution-chart"
           aria-label="Map showing recorded locations of reef fish, turtles, and whales and dolphins">
         </div>
 
@@ -157,9 +158,7 @@
 
       <div class="chart-card">
         <div class="chart-layout">
-          <div
-            id="reef-fish-radial"
-            class="radial-chart"
+          <div id="reef-fish-radial" class="radial-chart"
             aria-label="Radial bar chart showing recorded occurrences by reef-fish family">
           </div>
 
@@ -204,16 +203,14 @@
       </div>
 
       <div class="chart-card">
-        <div
-          id="fish-family-year-heatmap"
-          aria-label="Heatmap showing distinct reef-fish species by family and year">
+        <div id="fish-family-year-heatmap" aria-label="Heatmap showing distinct reef-fish species by family and year">
         </div>
 
         <p class="chart-note">
           Each cell shows the number of distinct reef-fish species recorded
           within a family during a particular year. Darker cells indicate
-          greater observed species diversity. Labridae recorded the highest 
-          number of distinct fish species (48 species) across the years, as shown by the 
+          greater observed species diversity. Labridae recorded the highest
+          number of distinct fish species (48 species) across the years, as shown by the
           darker blue cells in the heatmap.
         </p>
       </div>
@@ -243,8 +240,7 @@
 
       <div class="chart-card">
         <div class="chart-layout">
-          <div
-            id="turtle-nesting-multiple"
+          <div id="turtle-nesting-multiple"
             aria-label="Calendar heatmap showing turtle nesting observations by month and year">
           </div>
 
@@ -267,7 +263,7 @@
             </p>
 
             <p class="annotation-caveat">
-              These records indicate when nesting was observed in Australia throughout (2020-2024). Differences 
+              These records indicate when nesting was observed in Australia throughout (2020-2024). Differences
               between years may also reflect variations in data collection and reporting.
             </p>
           </aside>
@@ -286,6 +282,51 @@
         Turtle nesting sightings throught 2020-2024. Records labelled
         "Nesting" in the life stage field were grouped by calendar
         year and month.
+      </p>
+    </section>
+
+    <!-- GRAPH 6 -->
+    <section class="visual-section" id="turtle-observation">
+      <div class="section-heading">
+        <p class="section-kicker">06 / TURTLE OBSERVATION SEASONALITY</p>
+
+        <h2>How does turtle observation vary?</h2>
+
+        <p class="chart-question">
+          How do monthly turtle observation patterns differ across years,
+          and which months show relatively higher observation activity?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-layout">
+          <div id="turtle-observation-chart"
+            aria-label="Layered area and line chart showing normalised monthly turtle observations across different years">
+          </div>
+
+          <aside class="chart-annotation">
+            <h3>Turtle Observation Patterns</h3>
+            <p> Each horizontal line represents the total turtle observations recorded in a particular month across all
+              available years. The coloured dots indicate the number of recorded observations for each month. </p>
+
+            <p> Dots further to the right indicate higher observation counts, helping identify months with the most and
+              fewest recorded sightings and reveal overall seasonal patterns. </p>
+
+            <p class="annotation-caveat"> These totals combine observations across years (2018-2024) and do not show
+              year-to-year
+              changes. </p>
+          </aside>
+        </div>
+
+        <p class="chart-note">
+          The horizontal axis shows the total number of turtle observations, while the vertical axis lists the months
+          from January to December. Longer lines and dots further to the right indicate higher observation counts.
+        </p>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Turtle observations were aggregated by month across all available years (2018-2024) to compare overall seasonal patterns.
       </p>
     </section>
   </main>
@@ -448,6 +489,31 @@
 
       console.error(error);
     });
+    /*
+    * GRAPH 6
+    * Turtle observation seasonality
+    */
+    vegaEmbed(
+      "#turtle-observation-chart",
+      "js/turtle_observations (Graph6).vg.json",
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: "svg"
+      }
+    ).catch((error) => {
+      document.querySelector("#turtle-observation-chart").innerHTML =
+        '<p class="chart-error">' +
+        'The turtle observation chart could not be loaded. ' +
+        'Check the Graph 6 JSON file, CSV path, and CSV columns.' +
+        '</p>';
+      console.error(error);
+    });
   </script>
 </body>
+
 </html>
