@@ -42,6 +42,12 @@
         <a href="#biodiversity">
           03 <span>Biodiversity</span>
         </a>
+        <a href="#fish-diversity">
+          04 <span>Fish diversity</span>
+        </a>
+        <a href="#turtle-seasonality">
+          05 <span>Turtle seasonality</span>
+        </a>
       </nav>
 
     </div>
@@ -158,7 +164,7 @@
           </div>
 
           <aside class="chart-annotation">
-            <h3>Understanding the chart</h3>
+            <h3>Reef Fish Families</h3>
 
             <p>
               Each segment represents a reef-fish family among the 15 families
@@ -180,9 +186,106 @@
 
       <p class="source-note">
         <strong>Data:</strong>
-        Reef-fish dataset supplied for this project. Records were grouped
+        Reef-fish occurrences in Australia waters throughout 2006-2026. Records were grouped
         by fish family, and the 15 families with the most recorded occurrences
         were selected for comparison.
+      </p>
+    </section>
+
+    <!-- GRAPH 4 -->
+    <section class="visual-section" id="fish-diversity">
+      <div class="section-heading">
+        <p class="section-kicker">04 / FISH DIVERSITY OVER TIME</p>
+        <h2>How does fish diversity change over time?</h2>
+        <p class="chart-question">
+          How does the number of distinct reef-fish species recorded
+          within each fish family change across the years?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div
+          id="fish-family-year-heatmap"
+          aria-label="Heatmap showing distinct reef-fish species by family and year">
+        </div>
+
+        <p class="chart-note">
+          Each cell shows the number of distinct reef-fish species recorded
+          within a family during a particular year. Darker cells indicate
+          greater observed species diversity. Labridae recorded the highest 
+          number of distinct fish species (48 species) across the years, as shown by the 
+          darker blue cells in the heatmap.
+        </p>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Reef-fish occurrences in Australia waters throughout 2006-2026. Records were grouped
+        by fish family and calendar year, with the 20 families having the
+        highest overall recorded species diversity selected for comparison.
+      </p>
+    </section>
+    <!-- GRAPH 5 -->
+    <section class="visual-section" id="turtle-seasonality">
+      <div class="section-heading">
+        <p class="section-kicker">05 / TURTLE NESTING SEASONALITY</p>
+
+        <h2>
+          When are turtle nesting observations concentrated?
+        </h2>
+
+        <p class="chart-question">
+          Which months show the greatest concentration of recorded
+          turtle nesting observations, and does this pattern remain
+          consistent across years?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div class="chart-layout">
+          <div
+            id="turtle-nesting-multiple"
+            aria-label="Calendar heatmap showing turtle nesting observations by month and year">
+          </div>
+
+          <aside class="chart-annotation">
+            <h3>Turtle Breeding Patterns</h3>
+
+            <p>
+              Each data point represents the number of turtle observations
+              recorded as <strong>"Nesting"</strong> for a particular month
+              and year. The lines connect monthly observations to highlight
+              changes in nesting activity over time.
+            </p>
+
+            <p>
+              Comparing the yearly patterns reveals differences in the timing
+              and number of recorded nesting observations. Year 1 contains
+              observations for November and December, while the other years
+              show varying patterns, including periods of higher activity
+              and noticeable declines.
+            </p>
+
+            <p class="annotation-caveat">
+              These records indicate when nesting was observed in Australia throughout (2020-2024). Differences 
+              between years may also reflect variations in data collection and reporting.
+            </p>
+          </aside>
+        </div>
+
+        <p class="chart-note">
+          Each point shows the number of turtle observations explicitly
+          recorded as "Nesting" during a particular month and year.
+          Higher points indicate more recorded nesting observations,
+          while lower points indicate fewer recorded observations.
+        </p>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Turtle nesting sightings throught 2020-2024. Records labelled
+        "Nesting" in the life stage field were grouped by calendar
+        year and month.
       </p>
     </section>
   </main>
@@ -193,12 +296,10 @@
       Australian Marine Life · Data Visualisation 2
     </p>
     <p>
-      Created by <strong>Foo Yu Jun</strong> · Updated <strong>[Date]</strong>
+      Created by <strong>Foo Yu Jun</strong> · Updated <strong>13/10/2026</strong>
     </p>
     <p class="footer-small">
-      Data sources should be cited here with their original URLs and licences.
-      Acknowledge any generative AI use in accordance with the assignment
-      requirements.
+      Data sources to be cited
     </p>
   </footer>
 
@@ -286,6 +387,63 @@
         '<p class="chart-error">' +
         'The reef-fish radial chart could not be loaded. ' +
         'Check the Graph 3 JSON file, CSV path, and CSV columns.' +
+        '</p>';
+
+      console.error(error);
+    });
+
+    /*
+     * GRAPH 4
+     * Fish family × year diversity heatmap
+     */
+    vegaEmbed(
+      "#fish-family-year-heatmap",
+      "js/fish_family_year (Graph4).vg.json",
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: "svg",
+        tooltip: {
+          theme: "custom"
+        }
+      }
+    ).catch((error) => {
+      document.querySelector("#fish-family-year-heatmap").innerHTML =
+        '<p class="chart-error">' +
+        'The fish diversity heatmap could not be loaded. ' +
+        'Check the Graph 4 JSON file and CSV path.' +
+        '</p>';
+
+      console.error(error);
+    });
+    /*
+    * GRAPH 5
+    * Turtle nesting seasonal calendar
+    */
+    vegaEmbed(
+      "#turtle-nesting-multiple",
+      "js/turtle_nesting (Graph5).vg.json",
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: "svg",
+        tooltip: {
+          theme: "custom"
+        }
+      }
+    ).catch((error) => {
+      document.querySelector("#turtle-nesting-calendar").innerHTML =
+        '<p class="chart-error">' +
+        'The turtle nesting calendar could not be loaded. ' +
+        'Check the Graph 5 JSON file and CSV path.' +
         '</p>';
 
       console.error(error);
