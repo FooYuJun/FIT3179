@@ -249,7 +249,8 @@ footer p {
   display: grid;
   grid-template-columns: minmax(0, 1.6fr) minmax(220px, 0.8fr);
   align-items: center;
-  gap: 24px;
+  gap: 12px;
+  padding: 0 20px;
 }
 
 .radial-chart {
