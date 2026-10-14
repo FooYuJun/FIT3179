@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+  "title": {
+    "text": "Reef Fish Depth Profile",
+    "subtitle": "Recorded reef-fish observations across the depth gradient"
+  },
+
+  "data": {
+    "url": "data/reef_fish_depth.csv",
+    "format": {
+      "type": "csv"
+    }
+  },
+
+  "width": 750,
+  "height": 500,
+
+  "transform": [
+    {
+      "calculate": "toNumber(datum.depth)",
+      "as": "depth_num"
+    },
+    {
+      "density": "depth_num",
+      "groupby": ["family"],
+      "extent": [0.5, 38],
+      "steps": 100
+    }
+  ],
+
+  "mark": {
+    "type": "area",
+    "interpolate": "monotone",
+    "opacity": 0.7
+  },
+
+  "encoding": {
+    "x": {
+      "field": "value",
+      "type": "quantitative",
+      "title": "Observation depth (m)",
+      "scale": {
+        "domain": [0, 40]
+      }
+    },
+
+    "y": {
+      "field": "density",
+      "type": "quantitative",
+      "title": "Density"
+    },
+
+    "color": {
+      "field": "family",
+      "type": "nominal",
+      "legend": {
+        "title": "Fish family"
+      }
+    },
+
+    "tooltip": [
+      {
+        "field": "family",
+        "type": "nominal",
+        "title": "Family"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "title": "Depth (m)",
+        "format": ".1f"
+      },
+      {
+        "field": "density",
+        "type": "quantitative",
+        "title": "Density",
+        "format": ".3f"
+      }
+    ]
+  },
+
+  "config": {
+    "view": {
+      "stroke": null
+    },
+    "title": {
+            "font": "Arial",
+            "subtitleFont": "Arial",
+            "fontSize": 20,
+            "subtitleFontSize": 13
+    },
+    "axis": {
+      "labelFontSize": 11,
+      "titleFontSize": 13
+    }
+  }
+}
