@@ -13,8 +13,8 @@
     "title": {
         "text": "Sea Surface Temperature and Turtle Nesting by Month",
         "subtitle": [
-            "SST averages: Jan 2010-May 2015 · Nesting records: Nov 2020–Jun 2024",
-            "Months are matched by calendar month."
+            "SST averages vs Nesting records",
+            "Comparison are matched by calendar month."
         ],
         "font": "Arial",
         "fontSize": 20,
