@@ -47,7 +47,7 @@
       "name": "mapProjection",
       "type": "equalEarth",
       "center": [150, -27],
-      "scale": 650,
+      "scale": 800,
       "translate": [425, 325]
     }
   ],
