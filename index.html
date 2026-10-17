@@ -61,6 +61,9 @@
         <a href="#sst-seasonal">
           09 <span>Ocean temperatures</span>
         </a>
+        <a href="#sst-turtle-comparison">
+          10 <span>Temperature &amp; turtle nesting</span>
+        </a>
       </nav>
 
     </div>
@@ -444,6 +447,32 @@
         2010-2020. Values are grouped by season and geographic coordinates.
       </p>
     </section>
+    <!-- GRAPH 10: SST and Turtle Nesting Comparison -->
+    <section class="visual-section" id="sst-turtle-comparison">
+      <div class="section-heading">
+        <p class="section-kicker">10 / TEMPERATURE vs TURTLE NESTING</p>
+
+        <h2>How do seasonal temperatures and turtle nesting vary by month?</h2>
+
+        <p class="chart-question">
+          How do the monthly sea surface temperature pattern and recorded turtle nesting observations compare?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div id="sst-turtle-comparison-chart"
+          aria-label="Layered chart comparing monthly sea surface temperature and turtle nesting observations">
+        </div>
+
+        <p class="chart-note">
+          Turtle nesting observations generally decline as sea surface temperature decreases, then increase again as temperatures rise, suggesting a possible relationship between SST and nesting activity.        </p>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Monthly sea surface temperature averages vs turtle nesting observations, matched by calendar month.
+      </p>
+    </section>
   </main>
 
   <!-- FOOTER -->
@@ -706,6 +735,32 @@
         'Check that js/sst_seasonal.vg.json and its CSV data path are correct.' +
         '</p>';
 
+      console.error(error);
+    });
+
+    /*
+     * GRAPH 10
+     * Monthly SST and turtle nesting comparison
+     */
+    vegaEmbed(
+      "#sst-turtle-comparison-chart",
+      "js/sst_turtle_comparison (Graph 10).vg.json",
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: "svg",
+        tooltip: true
+      }
+    ).catch((error) => {
+      document.querySelector("#sst-turtle-comparison-chart").innerHTML =
+        '<p class="chart-error">' +
+        'The temperature and turtle nesting comparison could not be loaded. ' +
+        'Check the Graph 10 JSON file and sst_turtle_monthly_comparison.csv path.' +
+        '</p>';
       console.error(error);
     });
   </script>
