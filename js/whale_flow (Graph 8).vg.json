@@ -1,0 +1,248 @@
+
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 850,
+  "height": 650,
+  "padding": 10,
+  "autosize": "none",
+  "background": "#E7F3F4",
+
+  "title": {
+    "text": "The Journey of Australia's Humpback Whales",
+    "subtitle": "Wider arrows show migration routes followed by more tagged whales",
+    "fontSize": 22,
+    "subtitleFontSize": 13,
+    "anchor": "start"
+  },
+
+  "signals": [
+    {
+      "name": "routeFilter",
+      "value": "All routes",
+      "bind": {
+        "input": "select",
+        "name": "Filter migration route: ",
+        "options": [
+          "All routes",
+          "Route 150, -38 to 148, -42",
+          "Route 150, -38 to 148, -40",
+          "Route 150, -38 to 150, -38",
+          "Route 154, -28 to 146, -18",
+          "Route 154, -28 to 148, -20",
+          "Route 154, -28 to 150, -22",
+          "Route 154, -28 to 150, -20",
+          "Route 154, -28 to 152, -24",
+          "Route 154, -28 to 152, -22",
+          "Route 154, -26 to 148, -44",
+          "Route 154, -26 to 150, -36",
+          "Route 154, -26 to 150, -22",
+          "Route 154, -26 to 152, -34"
+        ]
+      }
+    }
+  ],
+
+  "projections": [
+    {
+      "name": "mapProjection",
+      "type": "equalEarth",
+      "center": [150, -27],
+      "scale": 650,
+      "translate": [425, 325]
+    }
+  ],
+
+  "data": [
+    {
+      "name": "movement",
+      "url": "data/whale_flow_trajectories.csv",
+      "format": {
+        "type": "csv",
+        "parse": {
+          "start_longitude": "number",
+          "start_latitude": "number",
+          "end_longitude": "number",
+          "end_latitude": "number",
+          "whale_count": "number"
+        }
+      },
+      "transform": [
+        {
+          "type": "formula",
+          "as": "route_label",
+          "expr": "'Route ' + datum.start_longitude + ', ' + datum.start_latitude + ' to ' + datum.end_longitude + ', ' + datum.end_latitude"
+        },
+        {
+          "type": "geopoint",
+          "projection": "mapProjection",
+          "fields": [
+            "start_longitude",
+            "start_latitude"
+          ],
+          "as": ["start_x", "start_y"]
+        },
+        {
+          "type": "geopoint",
+          "projection": "mapProjection",
+          "fields": [
+            "end_longitude",
+            "end_latitude"
+          ],
+          "as": ["end_x", "end_y"]
+        },
+        {
+          "type": "filter",
+          "expr": "isValid(datum.start_x) && isValid(datum.start_y) && isValid(datum.end_x) && isValid(datum.end_y) && datum.whale_count > 0"
+        },
+        {
+          "type": "filter",
+          "expr": "routeFilter === 'All routes' || datum.route_label === routeFilter"
+        }
+      ]
+    },
+    {
+      "name": "land",
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+      "format": {
+        "type": "topojson",
+        "feature": "countries"
+      }
+    },
+    {
+      "name": "australia",
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+      "format": {
+        "type": "topojson",
+        "feature": "countries"
+      },
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.properties.name === 'Australia'"
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "flowWidth",
+      "type": "sqrt",
+      "domain": {
+        "data": "movement",
+        "field": "whale_count"
+      },
+      "range": [2, 14]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "shape",
+      "from": {
+        "data": "land"
+      },
+      "transform": [
+        {
+          "type": "geoshape",
+          "projection": "mapProjection"
+        }
+      ],
+      "encode": {
+        "update": {
+          "fill": {"value": "#F5F2E8"},
+          "stroke": {"value": "#C5CFCC"},
+          "strokeWidth": {"value": 0.7}
+        }
+      }
+    },
+    {
+      "type": "shape",
+      "from": {
+        "data": "australia"
+      },
+      "transform": [
+        {
+          "type": "geoshape",
+          "projection": "mapProjection"
+        }
+      ],
+      "encode": {
+        "update": {
+          "fill": {"value": "#DCEAE1"},
+          "stroke": {"value": "#799E99"},
+          "strokeWidth": {"value": 1.2}
+        }
+      }
+    },
+    {
+      "type": "path",
+      "name": "whale-flow",
+      "from": {
+        "data": "movement"
+      },
+      "encode": {
+        "update": {
+          "path": {
+            "signal": "'M' + datum.start_x + ',' + datum.start_y + ' Q' + (((datum.start_x + datum.end_x) / 2) + 45) + ',' + ((datum.start_y + datum.end_y) / 2) + ' ' + datum.end_x + ',' + datum.end_y"
+          },
+          "stroke": {"value": "#E67E22"},
+          "strokeWidth": {
+            "scale": "flowWidth",
+            "field": "whale_count"
+          },
+          "opacity": {"value": 0.65},
+          "fill": {"value": null},
+          "tooltip": {
+            "signal": "{'Route': datum.route_label, 'Whales following route': datum.whale_count, 'Start': format(datum.start_latitude, '.1f') + '°, ' + format(datum.start_longitude, '.1f') + '°', 'Destination': format(datum.end_latitude, '.1f') + '°, ' + format(datum.end_longitude, '.1f') + '°'}"
+          }
+        },
+        "hover": {
+          "strokeWidth": {
+            "scale": "flowWidth",
+            "field": "whale_count",
+            "offset": 2
+          },
+          "opacity": {"value": 1}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "name": "arrowheads",
+      "from": {
+        "data": "movement"
+      },
+      "encode": {
+        "update": {
+          "x": {"field": "end_x"},
+          "y": {"field": "end_y"},
+          "shape": {"value": "triangle"},
+          "size": {
+            "signal": "80 + datum.whale_count * 25"
+          },
+          "angle": {
+            "signal": "atan2(datum.end_y - datum.start_y, datum.end_x - datum.start_x) * 180 / PI + 90"
+          },
+          "fill": {"value": "#087E8B"},
+          "stroke": {"value": "#087E8B"},
+          "opacity": {"value": 0.85},
+          "tooltip": {
+            "signal": "{'Route': datum.route_label, 'Whales following route': datum.whale_count}"
+          }
+        }
+      }
+    }
+  ],
+
+  "config": {
+    "view": {"stroke": null},
+    "font": "Roboto",
+    "title": {
+      "font": "Roboto",
+      "fontSize": 22,
+      "fontWeight": 600,
+      "color": "#173B3F"
+    }
+  }
+}
