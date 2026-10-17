@@ -55,6 +55,9 @@
         <a href="#turtle-observation">
           07 <span>Turtle observation</span>
         </a>
+        <a href="#whale-flow">
+          08 <span>Whale movement</span>
+        </a>
       </nav>
 
     </div>
@@ -373,8 +376,37 @@
         patterns.
       </p>
     </section>
+    <!-- GRAPH 8: Humpback Whale Flow Map -->
+    <section class="visual-section" id="whale-flow">
+      <div class="section-heading">
+        <p class="section-kicker">08 / WHALE MOVEMENT</p>
 
-    
+        <h2>The Journey Of Humpback Whales</h2>
+
+        <p class="chart-question">
+          How do satellite-tracked humpback whales move along
+          Australian water?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div id="whale-flow-map"
+          aria-label="Flow map showing daily movements of satellite-tracked humpback whales">
+        </div>
+
+        <p class="chart-note">
+          Each line represents movement between consecutive daily locations
+          of a tracked humpback whale. The paths reveal how
+          individual whales travelled along Australia's eastern migration route.
+        </p>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Satellite-tracked humpback whale movements (2008-2011). 
+        Recorded locations were connected for each tagged whale to illustrate movement routes.
+      </p>
+    </section>
   </main>
 
   <!-- FOOTER -->
@@ -585,6 +617,32 @@
         'Check the Graph 7 JSON file, CSV path, and CSV columns.' +
         '</p>';
 
+      console.error(error);
+    });
+    /*
+    * GRAPH 8
+    * Humpback whale movement flow map
+    */
+    vegaEmbed(
+      "#whale-flow-map",
+      "js/whale_flow (Graph 8).vg.json",
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+
+        renderer: "svg",
+        tooltip: true
+      }
+    ).catch((error) => {
+      document.querySelector("#whale-flow-map").innerHTML =
+        '<p class="chart-error">' +
+        'The whale movement map could not be loaded. ' +
+        'Check the Graph 8 JSON file and whale_flow_daily.csv path.' +
+        '</p>';
       console.error(error);
     });
   </script>
