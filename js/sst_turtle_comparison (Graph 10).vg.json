@@ -1,0 +1,158 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Compares monthly mean sea surface temperature from 2010–2015 with turtle nesting observations from 2020–2024. Months are matched by calendar month, not by year.",
+    "width": 700,
+    "height": 360,
+    "background": "#E7F3F4",
+    "data": {
+        "url": "data/sst_turtle_monthly_comparison.csv",
+        "format": {
+            "type": "csv"
+        }
+    },
+    "title": {
+        "text": "Sea Surface Temperature and Turtle Nesting by Month",
+        "subtitle": [
+            "SST averages: Jan 2010-May 2015 · Nesting records: Nov 2020–Jun 2024",
+            "Months are matched by calendar month."
+        ],
+        "font": "Arial",
+        "fontSize": 20,
+        "subtitleFont": "Arial",
+        "subtitleFontSize": 11,
+        "anchor": "start",
+        "color": "#000000",
+        "subtitleColor": "#42666C"
+    },
+    "transform": [
+        {
+            "calculate": "toNumber(datum.month)",
+            "as": "month_number"
+        },
+        {
+            "calculate": "toNumber(datum.mean_sst)",
+            "as": "mean_sst_num"
+        },
+        {
+            "calculate": "toNumber(datum.nesting_observations)",
+            "as": "nesting_num"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "bar",
+                "color": "#D99055",
+                "opacity": 0.72,
+                "cornerRadiusTopLeft": 3,
+                "cornerRadiusTopRight": 3
+            },
+            "encoding": {
+                "x": {
+                    "field": "month_name",
+                    "type": "ordinal",
+                    "sort": [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December"
+                    ],
+                    "axis": {
+                        "title": "Calendar month",
+                        "labelAngle": -35,
+                        "labelFontSize": 11,
+                        "titleFontSize": 12
+                    }
+                },
+                "y": {
+                    "field": "nesting_num",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Turtle nesting observations (2020–2024)",
+                        "orient": "right",
+                        "titleFontSize": 12,
+                        "labelFontSize": 11,
+                        "grid": false
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "month_name",
+                        "type": "ordinal",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "nesting_num",
+                        "type": "quantitative",
+                        "title": "Nesting observations",
+                        "format": ",.0f"
+                    }
+                ]
+            }
+        },
+        {
+            "mark": {
+                "type": "line",
+                "color": "#147D92",
+                "strokeWidth": 3,
+                "point": {
+                    "filled": true,
+                    "fill": "#147D92",
+                    "size": 65
+                }
+            },
+            "encoding": {
+                "x": {
+                    "field": "month_name",
+                    "type": "ordinal",
+                    "sort": [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December"
+                    ]
+                },
+                "y": {
+                    "field": "mean_sst_num",
+                    "type": "quantitative",
+                    "axis": {
+                        "title": "Mean sea surface temperature (°C)",
+                        "orient": "left",
+                        "titleFontSize": 12,
+                        "labelFontSize": 11,
+                        "format": ".1f"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "month_name",
+                        "type": "ordinal",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "mean_sst_num",
+                        "type": "quantitative",
+                        "title": "Mean SST (°C)",
+                        "format": ".2f"
+                    }
+                ]
+            }
+        }
+    ]
+}
