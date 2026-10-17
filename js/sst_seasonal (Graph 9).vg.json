@@ -1,0 +1,142 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Seasonal Sea Surface Temperature Around Australia",
+        "subtitle": "Temperature interpolated between seasonal grid measurements"
+    },
+    "width": 850,
+    "height": 480,
+    "background": "#E7F3F4",
+    "projection": {
+        "type": "equalEarth",
+        "center": [
+            133,
+            -27
+        ],
+        "scale": 650
+    },
+    "params": [
+        {
+            "name": "seasonSelect",
+            "value": "Summer",
+            "bind": {
+                "input": "select",
+                "name": "Season: ",
+                "options": [
+                    "Summer",
+                    "Autumn",
+                    "Winter",
+                    "Spring"
+                ]
+            }
+        }
+    ],
+    "layer": [
+        {
+            "data": {
+                "url": "data/sst_seasonal_gradient.csv",
+                "format": {
+                    "type": "csv"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.season === seasonSelect"
+                }
+            ],
+            "mark": {
+                "type": "square",
+                "size": 110,
+                "opacity": 1
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "lon",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "lat",
+                    "type": "quantitative"
+                },
+                "color": {
+                    "field": "sst",
+                    "type": "quantitative",
+                    "title": "Temperature (°C)",
+                    "scale": {
+                        "scheme": "turbo",
+                        "domain": [
+                            10,
+                            32
+                        ],
+                        "clamp": true
+                    },
+                    "legend": {
+                        "orient": "bottom",
+                        "direction": "horizontal",
+                        "gradientLength": 300,
+                        "format": ".0f"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "season",
+                        "type": "nominal",
+                        "title": "Season"
+                    },
+                    {
+                        "field": "sst",
+                        "type": "quantitative",
+                        "title": "Temperature (°C)",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "lat",
+                        "type": "quantitative",
+                        "title": "Latitude",
+                        "format": ".1f"
+                    },
+                    {
+                        "field": "lon",
+                        "type": "quantitative",
+                        "title": "Longitude",
+                        "format": ".1f"
+                    }
+                ]
+            }
+        },
+        {
+            "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "countries"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.properties.name === 'Australia'"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "fill": "#E5E3D7",
+                "stroke": "#526D66",
+                "strokeWidth": 1.2
+            }
+        }
+    ],
+    "config": {
+        "view": {
+            "stroke": null
+        },
+        "title": {
+            "font": "Arial",
+            "fontSize": 20,
+            "fontWeight": 700,
+            "subtitleFont": "Arial",
+            "subtitleFontSize": 12,
+            "anchor": "start",
+            "color": "#173B42"
+        }
+    }
+}
