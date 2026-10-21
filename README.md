@@ -1,13 +1,13 @@
-# Life Beneath the Surface — Marine Observatory
+# Australia Marine Life
 
-A responsive single-page marine biodiversity data story built with HTML, CSS, JavaScript and Vega-Lite.
+A responsive single-page marine biodiversity in Australia.
 
 ## What's included
 
 - `index.html` — page header, introduction, first chart, and section placeholders
 - `styles.css` — responsive ocean-inspired visual design
-- `js/observations_over_time.vg.json` — Vega-Lite specification for the first chart
-- `data/observations_by_year.csv` — annual record counts derived from the supplied occurrence CSVs
+- `js/` — Vega-Lite specification for each chart
+- `data/` — dataset supplied for this visualisation
 
 ## Run locally
 
@@ -26,14 +26,15 @@ Then open `http://localhost:8000`.
 3. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then save.
 4. Wait for deployment and open the Pages URL shown in Settings → Pages.
 
-## Important interpretation note
+## Technologies Used
+HTML5 — Page structure and content.
+CSS3 — Layout, typography, styling and responsive design.
+JavaScript — Interactive webpage functionality.
+Vega-Lite — Declarative specifications for data visualisation.
+CSV — Storage of processed observation data.
+Python HTTP server — Local development and testing.
 
-The chart counts rows/records by calendar year; it does not estimate animal populations. The three supplied datasets cover different time ranges. A year missing for a dataset means no rows were available for that year in the supplied file, not necessarily zero marine life or zero observations worldwide.
-
-## Before submission
-
-- Replace `[Your name]` and `[Date]` in `index.html`.
-- Add original dataset URLs, publishers and licence details to the page and README.
-- Verify data provenance and whether each dataset is suitable for the assignment's requirement to use reliable, current data from two sources.
-- Acknowledge generative AI use as required by the assignment.
-- Continue building the remaining charts and include at least three different map idioms.
+## Created by
+Foo Yu Jun
+34074619
+Updated on - 21/10/2026
