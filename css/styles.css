@@ -285,3 +285,8 @@ footer p {
     gap: 8px;
   }
 }
+
+.footer-small a {
+  color: inherit;
+  text-decoration: none;
+}
