@@ -142,5 +142,30 @@
                 ]
             }
         }
-    ]
+    ],
+    "config": {
+
+    "axis": {
+      "labelFont": "Arial",
+      "titleFont": "Arial"
+    },
+
+    "legend": {
+      "labelFont": "Arial",
+      "titleFont": "Arial",
+      "labelFontSize": 12,
+      "titleFontSize": 12
+    },
+
+    "title": {
+      "font": "Arial",
+      "fontSize": 20,
+      "subtitleFont": "Arial",
+      "subtitleFontSize": 13
+    },
+
+    "view": {
+      "stroke": null
+    }
+  }
 }
