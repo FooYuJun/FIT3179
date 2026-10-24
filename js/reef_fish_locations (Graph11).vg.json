@@ -1,0 +1,146 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+        "text": "Where Are Reef Fish Observed in Australia?",
+        "subtitle": "Recorded reef fish survey locations across Australian waters"
+    },
+    "width": 820,
+    "height": 600,
+    "background": "#E7F3F4",
+    "params": [
+        {
+            "name": "familyFilter",
+            "value": "All",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "All",
+                    "Arripidae",
+                    "Carangidae",
+                    "Clupeidae",
+                    "Dinolestidae",
+                    "Pempheridae",
+                    "Plesiopidae",
+                    "Plotosidae",
+                    "Ptereleotridae"
+                ],
+                "name": "Fish Family: "
+            }
+        }
+    ],
+    "projection": {
+        "type": "equalEarth",
+        "center": [
+            134,
+            -25
+        ],
+        "scale": 850
+    },
+    "layer": [
+        {
+            "data": {
+                "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "countries"
+                }
+            },
+            "transform": [
+                {
+                    "filter": "datum.properties.name == 'Australia'"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "fill": "#DCEAE1",
+                "stroke": "#799E99",
+                "strokeWidth": 0.7
+            }
+        },
+        {
+            "data": {
+                "url": "data/reef_fish_locations_top15.csv"
+            },
+            "transform": [
+                {
+                    "filter": "familyFilter == 'All' || datum.family == familyFilter"
+                }
+            ],
+            "mark": {
+                "type": "circle",
+                "opacity": 0.65,
+                "stroke": "white",
+                "strokeWidth": 0.5
+            },
+            "encoding": {
+                "longitude": {
+                    "field": "longitude",
+                    "type": "quantitative"
+                },
+                "latitude": {
+                    "field": "latitude",
+                    "type": "quantitative"
+                },
+                "size": {
+                    "field": "total",
+                    "type": "quantitative",
+                    "scale": {
+                        "type": "pow",
+                        "exponent": 2,
+                        "range": [
+                            50,
+                            500
+                        ]
+                    },
+                    "legend": {
+                        "title": "Fish recorded"
+                    }
+                },
+                "color": {
+                    "field": "family",
+                    "type": "nominal",
+                    "legend": {
+                        "title": "Fish family"
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "area",
+                        "type": "nominal",
+                        "title": "Area"
+                    },
+                    {
+                        "field": "location",
+                        "type": "nominal",
+                        "title": "Location"
+                    },
+                    {
+                        "field": "site_name",
+                        "type": "nominal",
+                        "title": "Site"
+                    },
+                    {
+                        "field": "family",
+                        "type": "nominal",
+                        "title": "Family"
+                    },
+                    {
+                        "field": "species_name",
+                        "type": "nominal",
+                        "title": "Species"
+                    },
+                    {
+                        "field": "total",
+                        "type": "quantitative",
+                        "title": "Fish recorded"
+                    },
+                    {
+                        "field": "survey_date",
+                        "type": "temporal",
+                        "title": "Survey date"
+                    }
+                ]
+            }
+        }
+    ]
+}
