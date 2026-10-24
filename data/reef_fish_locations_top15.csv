@@ -1,0 +1,1342 @@
+latitude,longitude,area,location,site_name,family,species_name,total,survey_date
+-43.05,147.34,Tasmania,Tinderbox,Piersons Point,Carangidae,Seriola lalandi,5.0,2016-03-17
+-42.58,147.92,Tasmania,Maria Island,Spring Beach,Arripidae,Arripis trutta,200.0,2016-04-05
+-42.58,148.11,Tasmania,Maria Island,Fossil Cliffs (East),Carangidae,Seriola lalandi,30.0,2018-03-08
+-43.06,147.33,Tasmania,Tinderbox,Central Tinderbox,Dinolestidae,Dinolestes lewini,100.0,2023-03-17
+-33.96,134.27,South Australia,Eyre Peninsula,Pearson Island SE bay,Carangidae,Seriola lalandi,1.0,2023-12-16
+-43.33,145.97,Tasmania,Port Davey,Breaksea Island South,Plesiopidae,Trachinops caudimaculatus,20.0,2025-03-14
+-33.78,151.3,New South Wales,Sydney,Freshwater north,Pempheridae,Pempheris compressa,1.0,2009-06-27
+-33.78,151.3,New South Wales,Sydney,Freshwater north,Pempheridae,Pempheris compressa,22.0,2009-09-27
+-33.78,151.3,New South Wales,Sydney,Freshwater north,Pempheridae,Pempheris multiradiata,1.0,2009-09-27
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Pempheridae,Pempheris affinis,20.0,2010-01-26
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Pempheridae,Pempheris affinis,5.0,2010-01-26
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Pempheridae,Pempheris multiradiata,2.0,2010-01-26
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Pempheridae,Pempheris multiradiata,5.0,2010-01-26
+-31.68,152.91,New South Wales,Cod Grounds,Steves Bommie (668),Carangidae,Seriola lalandi,10.0,2009-05-17
+-35.1,150.7,New South Wales,Jervis Bay,Hyams Beach SZ,Plesiopidae,Trachinops taeniatus,3.0,2009-08-30
+-35.1,150.7,New South Wales,Jervis Bay,Hyams Beach SZ,Pempheridae,Pempheris multiradiata,7.0,2010-03-26
+-35.1,150.7,New South Wales,Jervis Bay,Hyams Beach SZ,Dinolestidae,Dinolestes lewini,2.0,2010-03-26
+-35.1,150.7,New South Wales,Jervis Bay,Hyams Beach SZ,Pempheridae,Pempheris affinis,1.0,2010-07-30
+-35.1,150.7,New South Wales,Jervis Bay,Hyams Beach SZ,Pempheridae,Pempheris multiradiata,1.0,2010-07-30
+-35.75,150.26,New South Wales,Batemans,Tollgates Outer Mid Bay,Dinolestidae,Dinolestes lewini,1.0,2008-03-26
+-35.08,150.77,New South Wales,Jervis Bay,Longnose Point Offshore,Dinolestidae,Dinolestes lewini,1.0,2008-08-04
+-35.08,150.77,New South Wales,Jervis Bay,Longnose Point Offshore,Plesiopidae,Trachinops taeniatus,20.0,2010-03-26
+-33.84,151.29,New South Wales,Sydney,The Gap,Carangidae,Trachurus novaezelandiae,1.0,2009-08-03
+-33.84,151.29,New South Wales,Sydney,The Gap,Dinolestidae,Dinolestes lewini,1.0,2009-08-03
+-33.84,151.29,New South Wales,Sydney,The Gap,Plesiopidae,Trachinops taeniatus,20.0,2009-08-03
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris affinis,1.0,2008-05-23
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Plesiopidae,Trachinops taeniatus,1.0,2009-02-26
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris affinis,4.0,2009-03-05
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Carangidae,Trachurus novaezelandiae,1.0,2009-09-19
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris multiradiata,5.0,2009-10-30
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris multiradiata,1.0,2009-10-30
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris compressa,1.0,2009-11-24
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris affinis,1.0,2010-02-24
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris multiradiata,10.0,2010-02-24
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris multiradiata,20.0,2010-02-24
+-35.13,150.75,New South Wales,Jervis Bay,Murrays Reef Jetty,Pempheridae,Pempheris multiradiata,2.0,2010-02-24
+-33.83,151.26,New South Wales,Sydney,Middle Head Sth 2,Pempheridae,Pempheris compressa,3.0,2010-02-20
+-33.83,151.26,New South Wales,Sydney,Middle Head Sth 2,Pempheridae,Pempheris multiradiata,1.0,2010-02-20
+-33.83,151.26,New South Wales,Sydney,Middle Head Sth 2,Pempheridae,Pempheris multiradiata,1.0,2010-02-20
+-35.08,150.79,New South Wales,Jervis Bay,Apollo Reef 2,Pempheridae,Pempheris affinis,10.0,2009-09-13
+-35.08,150.79,New South Wales,Jervis Bay,Apollo Reef 2,Pempheridae,Pempheris affinis,20.0,2009-09-13
+-35.08,150.79,New South Wales,Jervis Bay,Apollo Reef 2,Pempheridae,Pempheris compressa,15.0,2009-09-13
+-35.08,150.79,New South Wales,Jervis Bay,Apollo Reef 2,Pempheridae,Pempheris compressa,15.0,2009-09-13
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,5.0,2008-02-20
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,2.0,2008-02-20
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris multiradiata,1.0,2008-02-20
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris multiradiata,1.0,2008-02-20
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris multiradiata,2.0,2008-02-20
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Pempheridae,Pempheris affinis,10.0,2009-08-03
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Pempheridae,Pempheris affinis,60.0,2009-08-03
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Pempheridae,Pempheris affinis,60.0,2009-08-03
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Pempheridae,Pempheris affinis,20.0,2009-08-03
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Pempheridae,Pempheris compressa,30.0,2009-08-03
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Dinolestidae,Dinolestes lewini,1.0,2009-08-03
+-30.24,153.18,New South Wales,Solitary Islands,Split Solitary East,Pempheridae,Pempheris affinis,4.0,2009-08-21
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point East,Pempheridae,Pempheris affinis,4.0,2009-09-13
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,3.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,5.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,8.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,11.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,9.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,7.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,11.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,18.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,13.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,5.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,11.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris affinis,3.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,5.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,10.0,2009-12-11
+-33.81,151.27,New South Wales,Sydney,Dobroyd Head,Pempheridae,Pempheris multiradiata,2.0,2009-12-11
+-35.83,150.21,New South Wales,Batemans,West Longnose Point,Dinolestidae,Dinolestes lewini,7.0,2010-01-11
+-35.11,150.77,New South Wales,Jervis Bay,Not Quite Warrens Reef,Pempheridae,Pempheris affinis,6.0,2008-10-20
+-36.16,150.13,New South Wales,Batemans,Dalmeny point N of ramp,Carangidae,Trachurus novaezelandiae,50.0,2008-04-01
+-36.16,150.13,New South Wales,Batemans,Dalmeny point N of ramp,Pempheridae,Pempheris affinis,1.0,2008-04-01
+-36.17,150.14,New South Wales,Batemans,Dalmeny point S of ramp off Joshs Beach,Arripidae,Arripis trutta,1000.0,2008-04-01
+-36.17,150.14,New South Wales,Batemans,Dalmeny point S of ramp off Joshs Beach,Pempheridae,Pempheris affinis,1.0,2008-04-01
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,2.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,3.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,2.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,4.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,1.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,2.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,5.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,4.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,2.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,2.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris compressa,7.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,20.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,60.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,20.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris affinis,2.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,5.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,5.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,25.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,7.0,2009-12-12
+-33.82,151.26,New South Wales,Sydney,Grotto Point Lighthouse,Pempheridae,Pempheris compressa,9.0,2009-12-12
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,2.0,2010-02-21
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris compressa,53.0,2010-02-21
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris compressa,47.0,2010-02-21
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,7.0,2010-02-21
+-35.75,150.26,New South Wales,Batemans,West Tollgate Is,Pempheridae,Pempheris affinis,10.0,2008-04-07
+-30.2,153.27,New South Wales,Solitary Islands,Cleaner Station,Pempheridae,Pempheris affinis,7.0,2009-08-23
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,50.0,2009-12-21
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,30.0,2009-12-21
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,1.0,2009-12-21
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,2.0,2009-12-21
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris multiradiata,3.0,2009-12-21
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris multiradiata,3.0,2009-12-21
+-33.83,151.28,New South Wales,Sydney,Inside South Head,Pempheridae,Pempheris affinis,6.0,2010-02-21
+-36.1,150.15,New South Wales,Batemans,Potato Point shark gutter,Pempheridae,Pempheris compressa,5.0,2008-04-11
+-35.72,150.27,New South Wales,Batemans,North Head,Pempheridae,Pempheris multiradiata,20.0,2010-01-15
+-34.0,151.24,New South Wales,Sydney,Henrys Head,Pempheridae,Pempheris affinis,15.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Henrys Head,Pempheridae,Pempheris compressa,20.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Henrys Head,Pempheridae,Pempheris affinis,5.0,2009-07-31
+-35.83,150.23,New South Wales,Batemans,Guerilla Bay Island South,Carangidae,Trachurus novaezelandiae,100.0,2008-03-31
+-35.83,150.23,New South Wales,Batemans,Guerilla Bay Island South,Pempheridae,Pempheris compressa,30.0,2008-03-31
+-35.83,150.23,New South Wales,Batemans,Guerilla Bay Island South,Pempheridae,Pempheris affinis,10.0,2009-01-16
+-35.83,150.23,New South Wales,Batemans,Guerilla Bay Island South,Pempheridae,Pempheris compressa,5.0,2010-01-07
+-35.83,150.23,New South Wales,Batemans,Guerilla Bay Island South,Plesiopidae,Trachinops taeniatus,200.0,2010-01-07
+-31.68,152.91,New South Wales,Cod Grounds,Nth of Pinnacles (662),Carangidae,Seriola lalandi,10.0,2009-05-14
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris affinis,1.0,2009-08-01
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris affinis,14.0,2009-12-13
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris affinis,15.0,2009-12-13
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris compressa,5.0,2009-12-13
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris compressa,15.0,2009-12-13
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris compressa,10.0,2009-12-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Carangidae,Seriola lalandi,1.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,2.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,9.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,9.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,8.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,50.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,11.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,2.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,2.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,3.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Dinolestidae,Dinolestes lewini,1.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,1.0,2009-03-13
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,1.0,2009-03-13
+-32.79,152.11,New South Wales,Port Stephens,Kingsley Arch,Pempheridae,Pempheris compressa,3.0,2010-01-23
+-33.08,151.66,New South Wales,NSW - Central,BAIT REEF BLACKSMITHS BEACH,Pempheridae,Pempheris affinis,6.0,2009-12-19
+-33.08,151.66,New South Wales,NSW - Central,BAIT REEF BLACKSMITHS BEACH,Pempheridae,Pempheris multiradiata,10.0,2009-12-19
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Carangidae,Seriola lalandi,1.0,2009-03-27
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,3.0,2009-03-27
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,2.0,2009-03-27
+-29.93,153.39,New South Wales,Solitary Islands,Elbow Cave Mooring N Solitary Is,Pempheridae,Pempheris affinis,2.0,2009-08-21
+-33.45,151.45,New South Wales,NSW - Central,Terrigal Haven,Dinolestidae,Dinolestes lewini,1.0,2009-08-25
+-35.8,150.24,New South Wales,Batemans,Pretty Point North,Pempheridae,Pempheris affinis,5.0,2009-12-20
+-35.78,150.23,New South Wales,Batemans,Garden Point,Pempheridae,Pempheris affinis,1.0,2009-04-09
+-35.78,150.23,New South Wales,Batemans,Garden Point,Pempheridae,Pempheris multiradiata,20.0,2009-04-09
+-35.77,150.23,New South Wales,Batemans,Lilly Pilly North,Pempheridae,Pempheris compressa,1.0,2009-12-20
+-36.01,150.17,New South Wales,Batemans,Bingi Bingi Point Nth,Pempheridae,Pempheris compressa,3.0,2010-01-28
+-36.01,150.17,New South Wales,Batemans,Bingi Bingi Point Nth,Pempheridae,Pempheris compressa,10.0,2010-01-28
+-35.83,150.23,New South Wales,Batemans,Guerilla Bay Bommie,Carangidae,Trachurus novaezelandiae,50.0,2008-05-16
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,10.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,12.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,10.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris affinis,3.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,7.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,6.0,2010-01-31
+-35.83,150.23,New South Wales,Batemans,Burrewarra Point,Pempheridae,Pempheris affinis,5.0,2008-05-19
+-35.69,150.3,New South Wales,Batemans,Richmond Point,Pempheridae,Pempheris affinis,2.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Richmond Point,Pempheridae,Pempheris compressa,1.0,2010-01-31
+-34.0,151.24,New South Wales,Sydney,Browns Rock,Pempheridae,Pempheris affinis,15.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Browns Rock,Pempheridae,Pempheris multiradiata,24.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Browns Rock,Pempheridae,Pempheris affinis,8.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Browns Rock,Pempheridae,Pempheris multiradiata,30.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Browns Rock,Pempheridae,Pempheris affinis,5.0,2009-07-31
+-34.0,151.24,New South Wales,Sydney,Browns Rock,Pempheridae,Pempheris affinis,5.0,2009-07-31
+-36.09,150.14,New South Wales,Batemans,Potato Point - Bills Bommie,Pempheridae,Pempheris compressa,10.0,2008-02-14
+-36.09,150.14,New South Wales,Batemans,Potato Point - Bills Bommie,Plesiopidae,Trachinops taeniatus,1.0,2008-02-14
+-36.09,150.14,New South Wales,Batemans,Potato Point - Bills Bommie,Pempheridae,Pempheris compressa,20.0,2008-05-12
+-36.09,150.14,New South Wales,Batemans,Potato Point - Bills Bommie,Plesiopidae,Trachinops taeniatus,20.0,2008-05-12
+-36.09,150.14,New South Wales,Batemans,Potato Point - Bills Bommie,Dinolestidae,Dinolestes lewini,30.0,2008-09-17
+-36.09,150.14,New South Wales,Batemans,Potato Point - Bills Bommie,Dinolestidae,Dinolestes lewini,2.0,2009-12-27
+-36.26,150.15,New South Wales,Batemans,Bogola North,Pempheridae,Pempheris affinis,3.0,2010-01-31
+-35.71,150.28,New South Wales,Batemans,Honeysuckle Bay,Pempheridae,Pempheris multiradiata,2.0,2010-01-15
+-35.71,150.28,New South Wales,Batemans,Honeysuckle Bay,Pempheridae,Pempheris affinis,26.0,2010-01-15
+-35.71,150.28,New South Wales,Batemans,Honeysuckle Bay,Pempheridae,Pempheris affinis,26.0,2010-01-15
+-35.99,150.16,New South Wales,Batemans,Mullimburra Point,Arripidae,Arripis trutta,20.0,2008-06-13
+-35.86,150.19,New South Wales,Batemans,Broulee Is South,Pempheridae,Pempheris affinis,3.0,2010-01-11
+-35.86,150.19,New South Wales,Batemans,Broulee Is South,Pempheridae,Pempheris compressa,1.0,2010-01-11
+-35.86,150.19,New South Wales,Batemans,Broulee Is South,Pempheridae,Pempheris compressa,5.0,2010-01-11
+-31.68,152.91,New South Wales,Cod Grounds,SW flats (66B),Carangidae,Seriola lalandi,6.0,2009-05-14
+-31.68,152.91,New South Wales,Cod Grounds,SW flats (66B),Pempheridae,Pempheris compressa,2.0,2009-05-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,3.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Carangidae,Seriola lalandi,1.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,1.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Dinolestidae,Dinolestes lewini,1.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,10.0,2009-03-14
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Pempheridae,Pempheris affinis,35.0,2009-05-09
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Pempheridae,Pempheris affinis,35.0,2009-05-09
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Carangidae,Trachurus novaezelandiae,200.0,2009-05-09
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Pempheridae,Pempheris affinis,1.0,2009-05-09
+-33.84,151.25,New South Wales,Sydney,Chowder Bay,Pempheridae,Pempheris compressa,1.0,2009-03-28
+-35.93,150.17,New South Wales,Batemans,NE Pedro Point,Pempheridae,Pempheris affinis,4.0,2008-09-16
+-35.91,150.16,New South Wales,Batemans,Moruya South Head E,Pempheridae,Pempheris compressa,2.0,2008-09-16
+-35.91,150.16,New South Wales,Batemans,Moruya South Head E,Pempheridae,Pempheris multiradiata,40.0,2008-09-16
+-35.82,150.23,New South Wales,Batemans,Jimmies Is SW,Pempheridae,Pempheris affinis,10.0,2008-11-18
+-35.78,150.23,New South Wales,Batemans,Barlings Beach N,Pempheridae,Pempheris affinis,10.0,2009-01-16
+-35.78,150.23,New South Wales,Batemans,Barlings Beach N,Pempheridae,Pempheris affinis,1.0,2009-01-16
+-35.78,150.23,New South Wales,Batemans,Barlings Beach N,Pempheridae,Pempheris affinis,1.0,2009-01-16
+-33.81,151.31,New South Wales,Sydney,BLUE FISH POINT - NORTH HEAD SYDNEY,Dinolestidae,Dinolestes lewini,1.0,2009-08-02
+-33.81,151.31,New South Wales,Sydney,BLUE FISH POINT - NORTH HEAD SYDNEY,Pempheridae,Pempheris multiradiata,35.0,2009-08-02
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Carangidae,Trachurus novaezelandiae,1.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Dinolestidae,Dinolestes lewini,1.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,15.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,20.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,50.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,65.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,2.0,2009-03-14
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,1.0,2009-03-14
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris affinis,100.0,2010-09-12
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris affinis,40.0,2010-09-12
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Plesiopidae,Trachinops taeniatus,30.0,2010-09-12
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Plesiopidae,Trachinops taeniatus,30.0,2010-09-12
+-33.84,151.25,New South Wales,Sydney,Clifton Gardens Wharf,Pempheridae,Pempheris affinis,1.0,2009-03-28
+-35.17,150.69,New South Wales,Jervis Bay,Summercloud Bay,Dinolestidae,Dinolestes lewini,1.0,2009-06-21
+-35.17,150.69,New South Wales,Jervis Bay,Summercloud Bay,Pempheridae,Pempheris affinis,1.0,2009-09-15
+-35.17,150.69,New South Wales,Jervis Bay,Summercloud Bay,Pempheridae,Pempheris affinis,2.0,2009-09-15
+-35.17,150.69,New South Wales,Jervis Bay,Summercloud Bay,Pempheridae,Pempheris affinis,1.0,2009-09-15
+-35.17,150.69,New South Wales,Jervis Bay,Summercloud Bay,Pempheridae,Pempheris multiradiata,2.0,2009-09-15
+-35.17,150.69,New South Wales,Jervis Bay,Summercloud Bay,Pempheridae,Pempheris multiradiata,2.0,2009-09-15
+-35.83,150.22,New South Wales,Batemans,Burrewarra Pt S,Pempheridae,Pempheris multiradiata,1.0,2008-02-18
+-33.99,151.23,New South Wales,Sydney,Bare Island North,Pempheridae,Pempheris affinis,20.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island North,Pempheridae,Pempheris compressa,50.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island North,Pempheridae,Pempheris affinis,70.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island North,Pempheridae,Pempheris multiradiata,15.0,2009-12-10
+-33.95,151.26,New South Wales,Sydney,South Maroubra,Pempheridae,Pempheris compressa,1.0,2010-01-11
+-35.14,150.76,New South Wales,Jervis Bay,Spider Cave,Dinolestidae,Dinolestes lewini,1.0,2009-03-15
+-35.14,150.76,New South Wales,Jervis Bay,Spider Cave,Pempheridae,Pempheris compressa,10.0,2009-03-15
+-35.14,150.76,New South Wales,Jervis Bay,Spider Cave,Pempheridae,Pempheris compressa,5.0,2009-03-15
+-30.02,153.27,New South Wales,Solitary Islands,Manta Mooring NW Solitary Is,Pempheridae,Pempheris affinis,50.0,2008-06-05
+-30.02,153.27,New South Wales,Solitary Islands,Manta Mooring NW Solitary Is,Pempheridae,Pempheris affinis,5.0,2008-06-05
+-35.82,150.23,New South Wales,Batemans,Jimmies Island,Pempheridae,Pempheris affinis,14.0,2008-02-18
+-35.82,150.23,New South Wales,Batemans,Jimmies Island,Pempheridae,Pempheris multiradiata,1.0,2008-02-18
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Arripidae,Arripis trutta,200.0,2009-09-09
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Dinolestidae,Dinolestes lewini,4.0,2010-02-20
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Pempheridae,Pempheris affinis,2.0,2010-06-19
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Pempheridae,Pempheris affinis,2.0,2010-06-19
+-33.82,151.3,New South Wales,Sydney,The Blocks,Pempheridae,Pempheris compressa,5.0,2009-03-30
+-33.82,151.3,New South Wales,Sydney,The Blocks,Pempheridae,Pempheris affinis,2.0,2009-03-30
+-33.82,151.3,New South Wales,Sydney,The Blocks,Pempheridae,Pempheris affinis,2.0,2009-03-30
+-33.82,151.3,New South Wales,Sydney,The Blocks,Pempheridae,Pempheris multiradiata,3.0,2009-03-30
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,6.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,20.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,5.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,20.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,6.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,35.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,30.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,10.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,20.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,16.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,40.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,21.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,1.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,8.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,2.0,2009-03-16
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,2.0,2009-03-16
+-33.82,151.29,New South Wales,Sydney,Old Mans Hat,Pempheridae,Pempheris compressa,1.0,2009-03-30
+-33.82,151.29,New South Wales,Sydney,Old Mans Hat,Pempheridae,Pempheris multiradiata,1.0,2009-03-30
+-30.21,153.27,New South Wales,Solitary Islands,Buchanans Wall,Plesiopidae,Trachinops taeniatus,20.0,2008-06-10
+-30.21,153.27,New South Wales,Solitary Islands,Buchanans Wall,Pempheridae,Pempheris affinis,2.0,2009-08-24
+-36.25,150.22,New South Wales,Batemans,Montague Is W (S of the Pinnacle),Pempheridae,Pempheris affinis,2.0,2008-03-13
+-36.25,150.22,New South Wales,Batemans,Montague Is W (S of the Pinnacle),Pempheridae,Pempheris affinis,1.0,2008-03-13
+-36.25,150.22,New South Wales,Batemans,Montague Is W (S of the Pinnacle),Pempheridae,Pempheris affinis,1.0,2008-03-13
+-36.24,150.22,New South Wales,Batemans,Montague Is NW shallow bay,Carangidae,Trachurus novaezelandiae,50.0,2008-03-13
+-36.24,150.22,New South Wales,Batemans,Montague Is NW shallow bay,Dinolestidae,Dinolestes lewini,50.0,2008-03-13
+-30.24,153.18,New South Wales,Solitary Islands,Turtle cove,Pempheridae,Pempheris affinis,2.0,2009-08-24
+-30.24,153.18,New South Wales,Solitary Islands,Turtle cove,Pempheridae,Pempheris affinis,2.0,2009-08-24
+-35.11,150.77,New South Wales,Jervis Bay,Crack Rock,Dinolestidae,Dinolestes lewini,12.0,2009-08-28
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Dinolestidae,Dinolestes lewini,1.0,2008-05-10
+-32.71,152.15,New South Wales,Port Stephens,Fly Point Nelson Bay,Plesiopidae,Trachinops taeniatus,10.0,2010-04-15
+-32.79,152.11,New South Wales,Port Stephens,Boat Harbour South,Pempheridae,Pempheris compressa,40.0,2010-01-10
+-33.8,151.27,New South Wales,Sydney,Fairlight,Pempheridae,Pempheris compressa,3.0,2009-03-29
+-34.6,150.9,New South Wales,NSW - South,Bushranger Bay Bass Point,Plesiopidae,Trachinops taeniatus,8.0,2010-01-25
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Plesiopidae,Trachinops taeniatus,2.0,2008-04-13
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Dinolestidae,Dinolestes lewini,50.0,2008-03-26
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Pempheridae,Pempheris compressa,100.0,2008-03-26
+-35.77,150.23,New South Wales,Batemans,Lilly Pilly North,Pempheridae,Pempheris multiradiata,1.0,2008-12-06
+-32.07,152.55,New South Wales,NSW - Mid North,Secret Garden,Plesiopidae,Trachinops taeniatus,13.0,2009-08-22
+-28.61,153.63,New South Wales,Byron,Anemone mooring Julien Rocks,Pempheridae,Pempheris affinis,1.0,2010-07-27
+-28.61,153.63,New South Wales,Byron,Elwoods Mooring Julien Rocks,Pempheridae,Pempheris affinis,3.0,2010-07-29
+-28.61,153.63,New South Wales,Byron,Elwoods Mooring Julien Rocks,Pempheridae,Pempheris affinis,2.0,2010-07-29
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Dinolestidae,Dinolestes lewini,4.0,2009-10-18
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris affinis,1.0,2009-10-18
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Plesiopidae,Trachinops taeniatus,20.0,2009-10-18
+-32.2,152.55,New South Wales,Port Stephens - North,Burgess Beach,Pempheridae,Pempheris affinis,1.0,2009-07-29
+-32.2,152.54,New South Wales,Port Stephens - North,South One Mile,Pempheridae,Pempheris compressa,40.0,2009-08-27
+-32.2,152.54,New South Wales,Port Stephens - North,South One Mile,Pempheridae,Pempheris compressa,40.0,2009-08-27
+-32.18,152.54,New South Wales,Port Stephens - North,One Mile Gutters,Pempheridae,Pempheris compressa,5.0,2009-10-18
+-32.18,152.54,New South Wales,Port Stephens - North,One Mile Gutters,Pempheridae,Pempheris compressa,12.0,2009-10-18
+-32.18,152.54,New South Wales,Port Stephens - North,One Mile Gutters,Pempheridae,Pempheris compressa,22.0,2009-10-18
+-32.18,152.54,New South Wales,Port Stephens - North,One Mile Gutters,Pempheridae,Pempheris compressa,15.0,2009-10-18
+-32.18,152.54,New South Wales,Port Stephens - North,One Mile Gutters,Pempheridae,Pempheris multiradiata,1.0,2009-10-18
+-32.18,152.52,New South Wales,Port Stephens - North,Baitgrounds,Pempheridae,Pempheris multiradiata,14.0,2010-02-20
+-32.18,152.52,New South Wales,Port Stephens - North,Baitgrounds,Pempheridae,Pempheris multiradiata,100.0,2010-02-20
+-31.57,152.85,New South Wales,NSW - North,Cathie Wall,Plesiopidae,Trachinops taeniatus,10.0,2010-08-08
+-37.26,150.05,New South Wales,Eden,Green Cape SE,Pempheridae,Pempheris affinis,1.0,2008-12-08
+-37.1,149.95,New South Wales,Eden,North Hd SE,Pempheridae,Pempheris multiradiata,2.0,2008-12-10
+-37.05,149.94,New South Wales,Eden,North Head S,Pempheridae,Pempheris affinis,2.0,2008-12-10
+-37.05,149.94,New South Wales,Eden,North Head S,Pempheridae,Pempheris affinis,2.0,2008-12-10
+-37.05,149.94,New South Wales,Eden,North Head S,Pempheridae,Pempheris affinis,2.0,2008-12-10
+-37.05,149.94,New South Wales,Eden,North Head S,Pempheridae,Pempheris multiradiata,5.0,2008-12-10
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris affinis,23.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris affinis,2.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris affinis,10.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris compressa,11.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris compressa,10.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris multiradiata,5.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris multiradiata,5.0,2008-12-11
+-37.02,149.94,New South Wales,Eden,Lennard Is NW,Pempheridae,Pempheris multiradiata,1.0,2008-12-11
+-37.08,149.91,New South Wales,Eden,The Booth,Pempheridae,Pempheris affinis,1.0,2008-12-11
+-33.99,151.23,New South Wales,Sydney,Bare Island,Pempheridae,Pempheris multiradiata,3.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island,Pempheridae,Pempheris multiradiata,1.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island,Pempheridae,Pempheris affinis,2.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island,Pempheridae,Pempheris compressa,5.0,2009-12-10
+-33.99,151.23,New South Wales,Sydney,Bare Island,Pempheridae,Pempheris affinis,15.0,2009-12-10
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point 2,Plesiopidae,Trachinops taeniatus,10.0,2010-03-26
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris affinis,3.0,2010-03-27
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris compressa,4.0,2010-03-27
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Plesiopidae,Trachinops taeniatus,169.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Pempheridae,Pempheris affinis,1.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Pempheridae,Pempheris compressa,1.0,2010-03-26
+-35.09,150.69,New South Wales,Jervis Bay,Greenfield Beach Nth,Plesiopidae,Trachinops taeniatus,1.0,2010-03-26
+-35.09,150.69,New South Wales,Jervis Bay,Greenfield Beach Nth,Pempheridae,Pempheris multiradiata,1.0,2010-03-26
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Carangidae,Seriola lalandi,1.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris affinis,1.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris compressa,1.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris compressa,2.0,2010-03-28
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Carangidae,Seriola lalandi,50.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris compressa,1.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,4.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris affinis,7.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris compressa,54.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,1.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,8.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,16.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,1.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris affinis,3.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,16.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,44.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris multiradiata,23.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris affinis,2.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris compressa,2.0,2010-03-29
+-35.03,150.78,New South Wales,Jervis Bay,Montagu Point,Pempheridae,Pempheris compressa,2.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Pempheridae,Pempheris affinis,3.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Pempheridae,Pempheris multiradiata,15.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Plesiopidae,Trachinops taeniatus,30.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Pempheridae,Pempheris affinis,60.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Pempheridae,Pempheris affinis,15.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Pempheridae,Pempheris multiradiata,15.0,2010-03-29
+-35.02,150.76,New South Wales,Jervis Bay,GREEN POINT (GREEN ISLAND),Plesiopidae,Trachinops taeniatus,15.0,2010-03-29
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,1.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,2.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,2.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,1.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Arripidae,Arripis trutta,100.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Carangidae,Seriola lalandi,1.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Dinolestidae,Dinolestes lewini,2.0,2009-03-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,1.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Plesiopidae,Trachinops taeniatus,110.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,35.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,15.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,1.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,15.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,10.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris multiradiata,36.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris multiradiata,30.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,600.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,8.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris affinis,6.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,130.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Plesiopidae,Trachinops taeniatus,50.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,10.0,2010-03-27
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Plesiopidae,Trachinops taeniatus,10.0,2010-03-27
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,2.0,2010-03-27
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris affinis,3.0,2010-03-27
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris compressa,50.0,2010-03-27
+-35.13,150.73,New South Wales,Jervis Bay,Bristol Pt,Pempheridae,Pempheris compressa,3.0,2010-03-27
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,2.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,10.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,10.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Plesiopidae,Trachinops taeniatus,100.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,7.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,6.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,8.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,8.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,5.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,8.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,1.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,1.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,1.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,2.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,3.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,1.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,4.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,3.0,2010-03-28
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris multiradiata,1.0,2010-03-28
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point South,Pempheridae,Pempheris affinis,1.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point South,Pempheridae,Pempheris compressa,6.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point South,Pempheridae,Pempheris compressa,1.0,2010-03-26
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,4.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,1.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,8.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,9.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,50.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Plesiopidae,Trachinops taeniatus,120.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,1.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,3.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,12.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,6.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Plesiopidae,Trachinops taeniatus,70.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,13.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,10.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,30.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,21.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,21.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,7.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,5.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,2.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,60.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,10.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,5.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,2.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,6.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Plesiopidae,Trachinops taeniatus,60.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,1.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,4.0,2010-03-29
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,1.0,2010-03-29
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Carangidae,Seriola lalandi,1.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Pempheridae,Pempheris compressa,10.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Carangidae,Trachurus novaezelandiae,1.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Dinolestidae,Dinolestes lewini,1.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Pempheridae,Pempheris compressa,15.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Carangidae,Seriola lalandi,1.0,2010-03-26
+-35.08,150.78,New South Wales,Jervis Bay,Longnose Point North,Plesiopidae,Trachinops taeniatus,40.0,2010-03-26
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,8.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,40.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,2.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,3.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,7.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,11.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,12.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,13.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris multiradiata,1.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris affinis,22.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,22.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,2.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Pempheridae,Pempheris compressa,1.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Plesiopidae,Trachinops taeniatus,150.0,2010-03-28
+-35.12,150.71,New South Wales,Jervis Bay,Captains Point East,Pempheridae,Pempheris affinis,1.0,2010-03-27
+-35.12,150.71,New South Wales,Jervis Bay,Captains Point East,Pempheridae,Pempheris affinis,4.0,2010-03-27
+-35.12,150.71,New South Wales,Jervis Bay,Captains Point East,Pempheridae,Pempheris multiradiata,2.0,2010-03-27
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,2.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,2.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris multiradiata,5.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,8.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,22.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,18.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,7.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris multiradiata,2.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris affinis,3.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris compressa,10.0,2010-03-28
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 3 North Black Boat Cove,Pempheridae,Pempheris multiradiata,7.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Honeymoon Bay 1km Sth,Pempheridae,Pempheris multiradiata,3.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Honeymoon Bay 1km Sth,Pempheridae,Pempheris multiradiata,8.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Honeymoon Bay 1km Sth,Pempheridae,Pempheris multiradiata,8.0,2010-03-28
+-35.07,150.77,New South Wales,Jervis Bay,Honeymoon Bay 1km Sth,Pempheridae,Pempheris affinis,2.0,2010-03-28
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris compressa,10.0,2010-03-28
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris compressa,5.0,2010-03-28
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris multiradiata,10.0,2010-03-28
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris multiradiata,4.0,2010-03-28
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Carangidae,Seriola lalandi,1.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Pempheridae,Pempheris affinis,1.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Pempheridae,Pempheris affinis,5.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Pempheridae,Pempheris compressa,12.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Pempheridae,Pempheris compressa,13.0,2010-03-26
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Pempheridae,Pempheris multiradiata,1.0,2010-03-26
+-35.08,150.8,New South Wales,Jervis Bay,Tubes JB,Carangidae,Trachurus novaezelandiae,1.0,2008-06-08
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Carangidae,Seriola lalandi,12.0,2008-05-25
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point 2,Carangidae,Trachurus novaezelandiae,1.0,2008-03-12
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,1.0,2008-02-18
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,1.0,2008-02-18
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,12.0,2008-02-18
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris affinis,2.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,2.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Dinolestidae,Dinolestes lewini,1.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Plesiopidae,Trachinops taeniatus,10.0,2010-03-27
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Plesiopidae,Trachinops taeniatus,20.0,2010-03-27
+-35.13,150.77,New South Wales,Jervis Bay,Governors Head,Pempheridae,Pempheris compressa,10.0,2009-03-15
+-35.13,150.77,New South Wales,Jervis Bay,Governors Head,Carangidae,Seriola lalandi,1.0,2009-03-15
+-35.13,150.77,New South Wales,Jervis Bay,Governors Head,Carangidae,Trachurus novaezelandiae,1.0,2009-03-15
+-35.13,150.77,New South Wales,Jervis Bay,Governors Head,Pempheridae,Pempheris compressa,1.0,2009-03-15
+-35.07,150.69,New South Wales,Jervis Bay,Dent Rock,Pempheridae,Pempheris affinis,14.0,2008-05-18
+-35.07,150.69,New South Wales,Jervis Bay,Dent Rock,Pempheridae,Pempheris affinis,14.0,2008-05-18
+-35.07,150.69,New South Wales,Jervis Bay,Dent Rock,Pempheridae,Pempheris affinis,3.0,2008-10-11
+-35.07,150.69,New South Wales,Jervis Bay,Dent Rock,Pempheridae,Pempheris affinis,3.0,2009-09-14
+-35.07,150.69,New South Wales,Jervis Bay,Dent Rock,Pempheridae,Pempheris affinis,12.0,2009-09-14
+-35.09,150.69,New South Wales,Jervis Bay,Blenheim Beach,Carangidae,Trachurus novaezelandiae,1.0,2008-05-19
+-35.05,150.84,New South Wales,Jervis Bay,Drum Inlet,Carangidae,Seriola lalandi,1.0,2008-05-08
+-31.59,152.87,New South Wales,NSW - North,The Maze,Plesiopidae,Trachinops taeniatus,40.0,2010-06-26
+-37.07,149.91,New South Wales,Eden,Fanch beach house N,Plesiopidae,Trachinops taeniatus,1.0,2008-12-10
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris compressa,12.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris compressa,11.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris multiradiata,3.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris affinis,2.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris affinis,5.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris multiradiata,2.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris multiradiata,2.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris affinis,5.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris affinis,20.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris compressa,5.0,2009-12-11
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Pempheridae,Pempheris compressa,30.0,2009-12-11
+-32.74,152.21,New South Wales,Port Stephens,Fingal Sponges Fingal Island,Carangidae,Trachurus novaezelandiae,200.0,2010-01-09
+-32.74,152.21,New South Wales,Port Stephens,Fingal Sponges Fingal Island,Carangidae,Trachurus novaezelandiae,10.0,2010-01-09
+-32.74,152.21,New South Wales,Port Stephens,Fingal Sponges Fingal Island,Dinolestidae,Dinolestes lewini,1.0,2010-01-09
+-35.13,150.74,New South Wales,Jervis Bay,Scottish Rocks,Pempheridae,Pempheris compressa,40.0,2010-03-27
+-35.13,150.74,New South Wales,Jervis Bay,Scottish Rocks,Plesiopidae,Trachinops taeniatus,1.0,2010-03-27
+-35.13,150.74,New South Wales,Jervis Bay,Scottish Rocks,Carangidae,Trachurus novaezelandiae,1.0,2010-03-27
+-35.13,150.74,New South Wales,Jervis Bay,Scottish Rocks,Dinolestidae,Dinolestes lewini,1.0,2010-03-27
+-35.13,150.74,New South Wales,Jervis Bay,Scottish Rocks,Plesiopidae,Trachinops taeniatus,1.0,2010-03-27
+-35.08,150.78,New South Wales,Jervis Bay,Darts Point Cove,Pempheridae,Pempheris multiradiata,2.0,2008-02-19
+-35.13,150.77,New South Wales,Jervis Bay,Dolphin Cove,Pempheridae,Pempheris affinis,4.0,2008-02-21
+-35.13,150.77,New South Wales,Jervis Bay,Dolphin Cove,Pempheridae,Pempheris compressa,20.0,2008-02-21
+-35.13,150.77,New South Wales,Jervis Bay,Dolphin Cove,Pempheridae,Pempheris multiradiata,8.0,2008-02-21
+-35.13,150.77,New South Wales,Jervis Bay,Dolphin Cove,Pempheridae,Pempheris compressa,1.0,2008-02-21
+-35.13,150.77,New South Wales,Jervis Bay,Dolphin Cove,Pempheridae,Pempheris multiradiata,2.0,2008-02-21
+-35.13,150.77,New South Wales,Jervis Bay,Dolphin Cove,Pempheridae,Pempheris multiradiata,10.0,2008-02-21
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris compressa,4.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris compressa,6.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris compressa,6.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris compressa,6.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris compressa,2.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris compressa,4.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris multiradiata,1.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris multiradiata,3.0,2008-02-22
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris multiradiata,1.0,2008-02-22
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Plesiopidae,Trachinops taeniatus,670.0,2009-05-16
+-33.8,151.3,New South Wales,Sydney,Shelly Beach,Pempheridae,Pempheris affinis,1.0,2010-04-18
+-33.8,151.3,New South Wales,Sydney,Shelly Beach,Pempheridae,Pempheris affinis,3.0,2010-04-18
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris affinis,3.0,2009-11-28
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Plesiopidae,Trachinops taeniatus,100.0,2009-11-28
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris affinis,10.0,2010-08-08
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris affinis,11.0,2010-08-08
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris affinis,20.0,2010-08-08
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris multiradiata,20.0,2010-08-08
+-32.27,152.54,New South Wales,Port Stephens - North,Graveyard,Pempheridae,Pempheris multiradiata,35.0,2010-08-08
+-32.43,152.54,New South Wales,Port Stephens - North,Status Rock East,Plesiopidae,Trachinops taeniatus,1.0,2009-06-08
+-32.43,152.54,New South Wales,Port Stephens - North,Status Rock East,Carangidae,Trachurus novaezelandiae,20.0,2009-08-26
+-32.43,152.54,New South Wales,Port Stephens - North,Status Rock East,Dinolestidae,Dinolestes lewini,2.0,2009-08-26
+-32.43,152.54,New South Wales,Port Stephens - North,Status Rock East,Plesiopidae,Trachinops taeniatus,3.0,2009-08-26
+-32.45,152.54,New South Wales,Port Stephens - North,Sawtooth Rocks,Plesiopidae,Trachinops taeniatus,8.0,2009-06-27
+-32.45,152.54,New South Wales,Port Stephens - North,Sawtooth Rocks,Pempheridae,Pempheris affinis,25.0,2010-08-01
+-32.45,152.54,New South Wales,Port Stephens - North,Sawtooth Rocks,Pempheridae,Pempheris affinis,10.0,2010-08-01
+-32.45,152.54,New South Wales,Port Stephens - North,Sawtooth Rocks,Pempheridae,Pempheris multiradiata,20.0,2010-08-01
+-32.45,152.54,New South Wales,Port Stephens - North,Sawtooth Rocks,Pempheridae,Pempheris multiradiata,25.0,2010-08-01
+-32.45,152.54,New South Wales,Port Stephens - North,Sawtooth Rocks,Pempheridae,Pempheris affinis,34.0,2010-08-01
+-35.11,150.77,New South Wales,Jervis Bay,Weedy Valley,Pempheridae,Pempheris affinis,1.0,2008-02-11
+-33.86,151.26,New South Wales,Sydney,Shark Island SE,Plesiopidae,Trachinops taeniatus,20.0,2010-02-23
+-32.72,152.14,New South Wales,Port Stephens,Pipeline,Pempheridae,Pempheris affinis,1.0,2009-05-08
+-32.72,152.14,New South Wales,Port Stephens,Pipeline,Dinolestidae,Dinolestes lewini,20.0,2010-06-13
+-32.69,152.23,New South Wales,Port Stephens,Cabbage Tree Island North East,Carangidae,Seriola lalandi,6.0,2010-03-20
+-32.69,152.23,New South Wales,Port Stephens,Cabbage Tree Island North East,Pempheridae,Pempheris affinis,1.0,2010-03-20
+-32.71,152.18,New South Wales,Port Stephens,Tomaree Head Tubes,Plotosidae,Plotosus lineatus,1000.0,2010-04-08
+-32.72,152.14,New South Wales,Port Stephens,Pipeline,Pempheridae,Pempheris affinis,2.0,2010-05-13
+-32.72,152.14,New South Wales,Port Stephens,Pipeline,Pempheridae,Pempheris affinis,1.0,2010-05-13
+-32.75,152.17,New South Wales,Port Stephens,Barrys Park,Pempheridae,Pempheris compressa,60.0,2009-06-14
+-32.75,152.17,New South Wales,Port Stephens,Barrys Park,Dinolestidae,Dinolestes lewini,10.0,2009-09-09
+-32.75,152.17,New South Wales,Port Stephens,Barrys Park,Plotosidae,Plotosus lineatus,1.0,2009-09-27
+-32.75,152.17,New South Wales,Port Stephens,Barrys Park,Dinolestidae,Dinolestes lewini,10.0,2010-02-14
+-34.07,151.16,New South Wales,Sydney,Oak Park,Dinolestidae,Dinolestes lewini,1.0,2009-08-01
+-34.07,151.16,New South Wales,Sydney,Oak Park,Pempheridae,Pempheris compressa,5.0,2009-08-01
+-32.79,152.11,New South Wales,Port Stephens,Kingsley Point,Pempheridae,Pempheris affinis,1.0,2010-01-06
+-32.71,152.23,New South Wales,Port Stephens,Boondlebah Island Gutter,Carangidae,Trachurus novaezelandiae,10.0,2010-10-23
+-32.71,152.23,New South Wales,Port Stephens,Boondlebah Island Gutter,Pempheridae,Pempheris affinis,10.0,2010-10-23
+-32.71,152.23,New South Wales,Port Stephens,Boondlebah Island Gutter,Pempheridae,Pempheris affinis,5.0,2010-10-23
+-32.71,152.23,New South Wales,Port Stephens,Boondlebah Island Gutter,Pempheridae,Pempheris affinis,2.0,2010-10-23
+-32.71,152.23,New South Wales,Port Stephens,Boondlebah Island Gutter,Pempheridae,Pempheris compressa,10.0,2010-10-23
+-32.71,152.23,New South Wales,Port Stephens,Boondlebah Island Gutter,Pempheridae,Pempheris compressa,3.0,2010-10-23
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Carangidae,Trachurus novaezelandiae,200.0,2010-09-26
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Dinolestidae,Dinolestes lewini,20.0,2010-09-26
+-32.72,152.19,New South Wales,Port Stephens,Zenith Beach,Pempheridae,Pempheris compressa,1.0,2010-12-13
+-35.75,150.26,New South Wales,Batemans,Shark Gutter NE Tollgates,Pempheridae,Pempheris compressa,1.0,2011-01-16
+-35.86,150.19,New South Wales,Batemans,Broulee North,Pempheridae,Pempheris affinis,1.0,2010-11-18
+-35.83,150.23,New South Wales,Batemans,Burrewarra Point,Pempheridae,Pempheris affinis,30.0,2010-11-22
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris affinis,3.0,2010-12-30
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris affinis,2.0,2010-12-30
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,4.0,2010-12-30
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,16.0,2010-12-30
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris compressa,16.0,2010-12-30
+-35.73,150.26,New South Wales,Batemans,Yellow Rock,Pempheridae,Pempheris multiradiata,1.0,2010-12-30
+-35.8,150.24,New South Wales,Batemans,Pretty Point North,Pempheridae,Pempheris compressa,2.0,2010-12-05
+-35.8,150.24,New South Wales,Batemans,Pretty Point North,Pempheridae,Pempheris multiradiata,1.0,2010-12-05
+-35.8,150.24,New South Wales,Batemans,Pretty Point North,Pempheridae,Pempheris multiradiata,2.0,2010-12-05
+-36.01,150.17,New South Wales,Batemans,Bingi Bingi Point Nth,Pempheridae,Pempheris compressa,8.0,2010-12-20
+-36.01,150.17,New South Wales,Batemans,Bingi Bingi Point Nth,Pempheridae,Pempheris compressa,9.0,2010-12-20
+-36.01,150.17,New South Wales,Batemans,Bingi Bingi Point Nth,Pempheridae,Pempheris compressa,8.0,2010-12-20
+-36.01,150.17,New South Wales,Batemans,Bingi Bingi Point,Carangidae,Seriola lalandi,10.0,2010-12-20
+-35.99,150.16,New South Wales,Batemans,Mullimburra Point,Pempheridae,Pempheris compressa,5.0,2010-12-20
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,10.0,2010-01-31
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris affinis,8.0,2010-12-14
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,5.0,2010-12-14
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,5.0,2010-12-14
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,3.0,2010-12-14
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,30.0,2010-12-14
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,2.0,2010-12-14
+-35.69,150.3,New South Wales,Batemans,Flat Rock South,Pempheridae,Pempheris compressa,3.0,2010-12-14
+-36.27,150.15,New South Wales,Batemans,Bogola Point,Pempheridae,Pempheris affinis,1.0,2010-12-13
+-36.27,150.15,New South Wales,Batemans,Bogola Point,Pempheridae,Pempheris affinis,1.0,2010-12-13
+-35.71,150.28,New South Wales,Batemans,Honeysuckle Bay,Pempheridae,Pempheris affinis,3.0,2010-12-30
+-35.86,150.19,New South Wales,Batemans,Broulee Is South,Pempheridae,Pempheris compressa,1.0,2010-11-18
+-37.11,149.92,New South Wales,Eden,West Navy Jetty,Pempheridae,Pempheris compressa,2.0,2011-02-09
+-37.11,149.92,New South Wales,Eden,West Navy Jetty,Pempheridae,Pempheris compressa,5.0,2011-02-09
+-37.11,149.92,New South Wales,Eden,West Navy Jetty,Pempheridae,Pempheris compressa,10.0,2011-02-09
+-37.11,149.92,New South Wales,Eden,West Navy Jetty,Pempheridae,Pempheris compressa,2.0,2011-02-09
+-35.75,150.26,New South Wales,Batemans,Tollgates Outer Mid Bay,Carangidae,Trachurus novaezelandiae,20.0,2010-01-26
+-36.27,150.15,New South Wales,Batemans,Bogola Point,Pempheridae,Pempheris affinis,2.0,2010-02-01
+-29.98,153.26,New South Wales,Solitary Islands,North Rock,Pempheridae,Pempheris affinis,3.0,2011-07-30
+-34.6,150.9,New South Wales,NSW - South,Bushranger Bay Bass Point,Pempheridae,Pempheris affinis,3.0,2011-02-27
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris affinis,10.0,2011-01-22
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Plesiopidae,Trachinops taeniatus,10.0,2011-01-22
+-32.74,152.2,New South Wales,Port Stephens,Fingal Is- North East,Pempheridae,Pempheris affinis,10.0,2011-01-22
+-32.74,152.2,New South Wales,Port Stephens,Fingal Is- North East,Plesiopidae,Trachinops taeniatus,5.0,2011-01-22
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Plesiopidae,Trachinops taeniatus,1.0,2011-01-24
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Pempheridae,Pempheris affinis,10.0,2011-01-25
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Plesiopidae,Trachinops taeniatus,2.0,2011-01-25
+-32.69,152.22,New South Wales,Port Stephens,Cabbage Tree Island West,Pempheridae,Pempheris affinis,2.0,2011-01-25
+-32.69,152.22,New South Wales,Port Stephens,Coral Gardens,Pempheridae,Pempheris affinis,10.0,2011-02-28
+-32.69,152.22,New South Wales,Port Stephens,Coral Gardens,Pempheridae,Pempheris compressa,2.0,2011-02-28
+-32.69,152.22,New South Wales,Port Stephens,Coral Gardens,Plesiopidae,Trachinops taeniatus,20.0,2011-02-28
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Plesiopidae,Trachinops taeniatus,8.0,2011-03-07
+-32.71,152.18,New South Wales,Port Stephens,Tomaree Head Tubes,Plesiopidae,Trachinops taeniatus,20.0,2011-03-14
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Plesiopidae,Trachinops taeniatus,10.0,2011-03-18
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris affinis,1.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris affinis,1.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Groper Coast North,Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,6.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,4.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Arripidae,Arripis trutta,1.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris affinis,18.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Nursery steps,Pempheridae,Pempheris compressa,13.0,2011-04-16
+-35.13,150.75,New South Wales,Jervis Bay,Whistling Kite,Pempheridae,Pempheris compressa,5.0,2011-04-16
+-35.13,150.75,New South Wales,Jervis Bay,Whistling Kite,Pempheridae,Pempheris compressa,30.0,2011-04-16
+-35.13,150.75,New South Wales,Jervis Bay,Whistling Kite,Pempheridae,Pempheris compressa,50.0,2011-04-16
+-35.13,150.75,New South Wales,Jervis Bay,Whistling Kite,Pempheridae,Pempheris compressa,20.0,2011-04-16
+-35.13,150.75,New South Wales,Jervis Bay,Whistling Kite,Arripidae,Arripis trutta,100.0,2011-04-16
+-35.12,150.76,New South Wales,Jervis Bay,The Gap,Pempheridae,Pempheris compressa,30.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,The Gap,Pempheridae,Pempheris affinis,2.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,The Gap,Pempheridae,Pempheris compressa,51.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,The Gap,Pempheridae,Pempheris affinis,2.0,2011-04-17
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris compressa,4.0,2011-04-15
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris compressa,1.0,2011-04-15
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris compressa,12.0,2011-04-15
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris compressa,4.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris compressa,7.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris compressa,4.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris multiradiata,5.0,2011-04-17
+-35.07,150.77,New South Wales,Jervis Bay,Dart Point East (Grouper Coast South),Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,1.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris affinis,20.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,4.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,180.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris multiradiata,3.0,2011-04-16
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,46.0,2011-04-16
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,20.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,10.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,10.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris multiradiata,6.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris multiradiata,12.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris multiradiata,8.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris affinis,1.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris compressa,15.0,2011-04-17
+-35.12,150.76,New South Wales,Jervis Bay,Bowens Island SW,Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris affinis,1.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,2.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,5.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,5.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,2.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris compressa,60.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris compressa,2.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris compressa,2.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,1.0,2011-04-16
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Pempheridae,Pempheris multiradiata,1.0,2011-04-16
+-35.13,150.73,New South Wales,Jervis Bay,Bristol Pt,Pempheridae,Pempheris compressa,3.0,2011-04-15
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,2.0,2011-04-18
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,58.0,2011-04-18
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris compressa,12.0,2011-04-18
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,3.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Carangidae,Seriola lalandi,4.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,6.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,9.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,2.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris affinis,3.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,3.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,7.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,12.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,3.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,4.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,40.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,11.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,2.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,33.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,20.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,3.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,35.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,4.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,15.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,4.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,4.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,4.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,2.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris compressa,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,1.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,3.0,2011-04-18
+-35.09,150.8,New South Wales,Jervis Bay,Outer Tubes,Pempheridae,Pempheris multiradiata,3.0,2011-04-18
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris affinis,2.0,2011-04-17
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris affinis,3.0,2011-04-17
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris compressa,20.0,2011-04-17
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris compressa,20.0,2011-04-17
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris multiradiata,1.0,2011-04-17
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Pempheridae,Pempheris compressa,1.0,2011-04-17
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Pempheridae,Pempheris compressa,5.0,2011-03-27
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Plesiopidae,Trachinops taeniatus,140.0,2011-03-27
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,9.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Plesiopidae,Trachinops taeniatus,300.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Plesiopidae,Trachinops taeniatus,180.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,3.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,4.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,5.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,1.0,2011-03-28
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris multiradiata,2.0,2011-03-28
+-33.83,151.28,New South Wales,Sydney,Inside South Head,Plesiopidae,Trachinops taeniatus,60.0,2011-03-28
+-33.83,151.28,New South Wales,Sydney,Inside South Head,Pempheridae,Pempheris affinis,1.0,2011-03-28
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris affinis,10.0,2011-03-26
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Pempheridae,Pempheris affinis,6.0,2011-03-26
+-33.99,151.23,New South Wales,Sydney,Bare Island North,Plesiopidae,Trachinops taeniatus,2.0,2011-03-25
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Plesiopidae,Trachinops taeniatus,15.0,2011-03-28
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Pempheridae,Pempheris affinis,4.0,2011-03-28
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Plesiopidae,Trachinops taeniatus,30.0,2011-03-28
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Plesiopidae,Trachinops taeniatus,20.0,2011-03-28
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Pempheridae,Pempheris affinis,20.0,2011-03-28
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Pempheridae,Pempheris compressa,20.0,2011-03-28
+-33.8,151.29,New South Wales,Sydney,Fairy Bower,Plesiopidae,Trachinops taeniatus,10.0,2011-03-28
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris affinis,1.0,2011-04-23
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris affinis,20.0,2011-04-23
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris affinis,20.0,2011-04-23
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Pempheridae,Pempheris compressa,3.0,2011-04-23
+-33.84,151.28,New South Wales,Sydney,Camp Cove NE,Plesiopidae,Trachinops taeniatus,20.0,2011-03-26
+-33.84,151.28,New South Wales,Sydney,Camp Cove NE,Plesiopidae,Trachinops taeniatus,20.0,2011-03-26
+-33.84,151.28,New South Wales,Sydney,Camp Cove NE,Plesiopidae,Trachinops taeniatus,10.0,2011-03-26
+-33.84,151.28,New South Wales,Sydney,Camp Cove NE,Plesiopidae,Trachinops taeniatus,10.0,2011-03-26
+-32.7,152.23,New South Wales,Port Stephens,Boondelbah Island North,Pempheridae,Pempheris affinis,5.0,2011-04-09
+-32.7,152.23,New South Wales,Port Stephens,Boondelbah Island North,Plesiopidae,Trachinops taeniatus,20.0,2011-04-09
+-32.7,152.23,New South Wales,Port Stephens,Boondelbah Island North,Plesiopidae,Trachinops taeniatus,20.0,2011-04-09
+-32.71,152.15,New South Wales,Port Stephens,Fly Point Nelson Bay,Pempheridae,Pempheris affinis,20.0,2011-08-07
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Plesiopidae,Trachinops taeniatus,2.0,2011-04-02
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Plesiopidae,Trachinops taeniatus,5.0,2011-04-02
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Plesiopidae,Trachinops taeniatus,60.0,2011-03-27
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Pempheridae,Pempheris affinis,5.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Pempheridae,Pempheris compressa,6.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Pempheridae,Pempheris multiradiata,1.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Pempheridae,Pempheris affinis,62.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Plesiopidae,Trachinops taeniatus,50.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelly Beach,Plesiopidae,Trachinops taeniatus,20.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelly Beach,Dinolestidae,Dinolestes lewini,6.0,2011-03-26
+-33.8,151.3,New South Wales,Sydney,Shelly Beach,Pempheridae,Pempheris affinis,5.0,2011-03-26
+-33.97,151.26,New South Wales,Sydney,Long Bay South,Pempheridae,Pempheris affinis,5.0,2011-03-25
+-36.14,150.13,New South Wales,Batemans,Barren Bommie,Pempheridae,Pempheris affinis,2.0,2011-05-21
+-36.14,150.13,New South Wales,Batemans,Barren Bommie,Pempheridae,Pempheris compressa,8.0,2011-05-21
+-36.14,150.13,New South Wales,Batemans,Barren Bommie,Pempheridae,Pempheris compressa,45.0,2011-05-21
+-36.14,150.13,New South Wales,Batemans,Barren Bommie,Pempheridae,Pempheris compressa,35.0,2011-05-21
+-36.14,150.13,New South Wales,Batemans,Barren Bommie,Pempheridae,Pempheris multiradiata,5.0,2011-05-21
+-35.8,150.23,New South Wales,Batemans,Pretty Point NW,Pempheridae,Pempheris multiradiata,1.0,2011-06-20
+-37.12,149.97,New South Wales,Eden,Cave Point,Pempheridae,Pempheris affinis,10.0,2011-04-27
+-37.12,149.97,New South Wales,Eden,Cave Point,Pempheridae,Pempheris affinis,50.0,2011-04-27
+-37.12,149.97,New South Wales,Eden,Cave Point,Pempheridae,Pempheris compressa,12.0,2011-04-27
+-37.12,149.97,New South Wales,Eden,Cave Point,Pempheridae,Pempheris compressa,4.0,2011-04-27
+-37.82,148.78,Victoria,Beware Reef,Auckland,Plesiopidae,Trachinops taeniatus,1.0,2008-05-14
+-38.3,144.66,Victoria,Port Phillip Heads,Pt Nepean Inner West,Pempheridae,Pempheris multiradiata,2.0,2010-01-19
+-38.11,144.65,Victoria,Port Phillip Bay,Portarlington Pier,Plesiopidae,Trachinops caudimaculatus,471.0,2010-01-20
+-38.11,144.65,Victoria,Port Phillip Bay,Portarlington Pier,Pempheridae,Pempheris multiradiata,1.0,2010-01-20
+-38.11,144.65,Victoria,Port Phillip Bay,Portarlington Pier,Plesiopidae,Trachinops caudimaculatus,387.0,2010-01-20
+-38.28,144.64,Victoria,Port Phillip Heads,Kelp Beds,Pempheridae,Pempheris multiradiata,1.0,2008-06-20
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,5.0,2008-06-22
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Plesiopidae,Trachinops caudimaculatus,30.0,2008-06-22
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,5.0,2008-06-23
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,1.0,2008-06-23
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,5.0,2009-12-04
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,10.0,2009-12-04
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,1.0,2009-12-04
+-38.31,144.8,Victoria,Port Phillip Heads,Sth Channel Fort,Pempheridae,Pempheris multiradiata,2.0,2009-12-05
+-37.51,149.98,Victoria,Cape Howe,Howe Outer,Pempheridae,Pempheris multiradiata,9.0,2011-02-02
+-37.51,149.98,Victoria,Cape Howe,Howe Outer,Pempheridae,Pempheris multiradiata,2.0,2011-02-02
+-37.51,149.98,Victoria,Cape Howe,Howe Outer,Pempheridae,Pempheris compressa,1.0,2011-02-02
+-37.56,149.92,Victoria,Cape Howe,Gabo Boulder Bay,Pempheridae,Pempheris multiradiata,3.0,2011-02-03
+-38.27,144.65,Victoria,Port Phillip Heads,Cottage by the Sea,Pempheridae,Pempheris multiradiata,1.0,2011-05-10
+-38.32,144.72,Victoria,Port Phillip Heads,Point Franklin,Pempheridae,Pempheris multiradiata,1.0,2011-05-06
+-38.3,144.66,Victoria,Port Phillip Heads,Pt Nepean Inner West,Pempheridae,Pempheris multiradiata,100.0,2011-05-07
+-38.3,144.66,Victoria,Port Phillip Heads,Pt Nepean Inner West,Pempheridae,Pempheris multiradiata,120.0,2011-05-07
+-38.3,144.66,Victoria,Port Phillip Heads,Pt Nepean Inner West,Pempheridae,Pempheris multiradiata,4.0,2011-05-07
+-37.56,149.91,Victoria,Cape Howe,Gabo Harbour,Pempheridae,Pempheris multiradiata,1.0,2011-02-05
+-38.11,144.66,Victoria,Port Phillip Bay,Steeles Rocks,Plesiopidae,Trachinops caudimaculatus,25.0,2011-03-19
+-38.11,144.66,Victoria,Port Phillip Bay,Steeles Rocks,Plesiopidae,Trachinops caudimaculatus,42.0,2011-03-19
+-38.11,144.66,Victoria,Port Phillip Bay,Steeles Rocks,Plesiopidae,Trachinops caudimaculatus,105.0,2011-03-19
+-27.41,153.53,Queensland,Moreton,Shag Rock Sth,Pempheridae,Pempheris affinis,2.0,2010-07-22
+-26.35,153.08,Queensland,Great Sandy,Little Halls Reef,Pempheridae,Pempheris affinis,6.0,2010-07-18
+-35.68,136.94,South Australia,Kangaroo Island,Western River West,Pempheridae,Pempheris multiradiata,1.0,2009-03-28
+-35.68,136.94,South Australia,Kangaroo Island,Western River West,Pempheridae,Pempheris multiradiata,3.0,2009-03-28
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris klunzingeri,1.0,2009-03-28
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris multiradiata,2.0,2009-03-28
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris multiradiata,1.0,2009-03-28
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris multiradiata,12.0,2009-03-28
+-35.69,136.88,South Australia,Kangaroo Island,Pissy_Boy_East,Pempheridae,Pempheris klunzingeri,2.0,2009-03-29
+-35.75,136.65,South Australia,Kangaroo Island,Harveys Return,Pempheridae,Pempheris multiradiata,1.0,2009-04-29
+-35.75,136.65,South Australia,Kangaroo Island,Harveys Return,Pempheridae,Pempheris multiradiata,1.0,2009-04-29
+-35.75,136.65,South Australia,Kangaroo Island,Harveys Return,Pempheridae,Pempheris multiradiata,1.0,2009-04-29
+-35.72,137.93,South Australia,Encounter,Penneshaw Pub West,Pempheridae,Pempheris multiradiata,1.0,2009-03-22
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris klunzingeri,1.0,2009-03-23
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris multiradiata,2.0,2009-03-23
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris multiradiata,3.0,2009-03-23
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris multiradiata,2.0,2009-03-23
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris multiradiata,2.0,2009-03-23
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris multiradiata,1.0,2009-03-23
+-35.6,137.27,South Australia,Kangaroo Island,Green Cliffs,Pempheridae,Pempheris multiradiata,3.0,2009-03-23
+-35.63,137.14,South Australia,Kangaroo Island,Cape Dutton,Pempheridae,Pempheris multiradiata,2.0,2009-03-27
+-35.71,136.78,South Australia,Kangaroo Island,Cape Forbin South,Dinolestidae,Dinolestes lewini,1.0,2008-12-17
+-35.72,136.72,South Australia,Kangaroo Island,Cape Torrens,Pempheridae,Pempheris multiradiata,300.0,2010-03-12
+-35.72,136.72,South Australia,Kangaroo Island,Cape Torrens,Pempheridae,Pempheris multiradiata,3.0,2010-03-12
+-35.72,136.72,South Australia,Kangaroo Island,Cape Torrens,Pempheridae,Pempheris multiradiata,2.0,2010-03-12
+-35.72,136.72,South Australia,Kangaroo Island,Cape Torrens,Pempheridae,Pempheris multiradiata,5.0,2010-03-12
+-35.74,136.69,South Australia,Kangaroo Island,Tea Tree Ledge,Pempheridae,Pempheris multiradiata,4.0,2010-03-12
+-35.74,136.69,South Australia,Kangaroo Island,Tea Tree Ledge,Pempheridae,Pempheris multiradiata,1.0,2010-03-12
+-35.7,136.78,South Australia,Kangaroo Island,Cape Forbin,Pempheridae,Pempheris multiradiata,1.0,2010-03-13
+-35.71,136.77,South Australia,Kangaroo Island,Master Jack,Pempheridae,Pempheris multiradiata,1.0,2010-03-13
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris klunzingeri,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,2.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.58,137.31,South Australia,Kangaroo Island,Cassini East,Pempheridae,Pempheris multiradiata,1.0,2010-03-15
+-35.67,136.97,South Australia,Kangaroo Island,Western River Cove,Dinolestidae,Dinolestes lewini,1.0,2008-12-14
+-35.42,138.32,South Australia,Encounter,Carrickalinga (toilet),Pempheridae,Pempheris klunzingeri,1.0,2008-02-05
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Pempheridae,Pempheris klunzingeri,5.0,2008-02-08
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Pempheridae,Pempheris multiradiata,5.0,2008-02-08
+-35.27,138.43,South Australia,Encounter,Aldinga Reef Inshore,Pempheridae,Pempheris klunzingeri,5.0,2008-02-08
+-35.27,138.43,South Australia,Encounter,Aldinga Reef Inshore,Pempheridae,Pempheris multiradiata,2.0,2008-02-08
+-33.01,134.17,South Australia,SA - Western,Cave Bay,Pempheridae,Pempheris multiradiata,1.0,2009-02-21
+-33.01,134.17,South Australia,SA - Western,Cave Bay,Arripidae,Arripis georgianus,60.0,2009-02-21
+-32.86,134.1,South Australia,SA - Western,High Cliff North,Dinolestidae,Dinolestes lewini,3.0,2009-02-27
+-32.91,134.07,South Australia,SA - Western,Wayne s World,Pempheridae,Pempheris multiradiata,31.0,2009-02-27
+-32.91,134.07,South Australia,SA - Western,Wayne s World,Pempheridae,Pempheris multiradiata,1.0,2009-02-27
+-32.91,134.07,South Australia,SA - Western,Wayne s World,Pempheridae,Pempheris multiradiata,4.0,2009-02-27
+-32.91,134.07,South Australia,SA - Western,Wayne s World,Dinolestidae,Dinolestes lewini,1.0,2009-02-27
+-32.91,134.07,South Australia,SA - Western,Wayne s World,Pempheridae,Pempheris multiradiata,1.0,2009-02-27
+-33.19,134.35,South Australia,SA - Western,Mouth of Baird Bay,Pempheridae,Pempheris multiradiata,1.0,2009-02-23
+-33.19,134.35,South Australia,SA - Western,Mouth of Baird Bay,Pempheridae,Pempheris multiradiata,1.0,2009-02-23
+-33.19,134.36,South Australia,SA - Western,Jones Island NW,Pempheridae,Pempheris multiradiata,1.0,2009-02-24
+-33.01,134.17,South Australia,SA - Western,Cave Beach Point,Pempheridae,Pempheris multiradiata,1.0,2009-02-25
+-33.01,134.17,South Australia,SA - Western,Cave Beach Point,Pempheridae,Pempheris multiradiata,2.0,2009-02-25
+-33.01,134.16,South Australia,SA - Western,Cave Beach West,Pempheridae,Pempheris multiradiata,1.0,2009-02-25
+-33.01,134.16,South Australia,SA - Western,Cave Beach West,Pempheridae,Pempheris multiradiata,2.0,2009-02-25
+-33.01,134.16,South Australia,SA - Western,Cave Beach West,Pempheridae,Pempheris multiradiata,1.0,2009-02-25
+-33.01,134.18,South Australia,SA - Western,Bakers Hole,Pempheridae,Pempheris multiradiata,5.0,2009-02-25
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Pempheridae,Pempheris klunzingeri,6.0,2011-02-02
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Pempheridae,Pempheris multiradiata,22.0,2011-02-02
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Pempheridae,Pempheris klunzingeri,13.0,2011-02-02
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Pempheridae,Pempheris multiradiata,7.0,2011-02-02
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Pempheridae,Pempheris klunzingeri,1.0,2011-02-01
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Pempheridae,Pempheris multiradiata,1.0,2011-02-01
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Pempheridae,Pempheris klunzingeri,10.0,2011-02-01
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Pempheridae,Pempheris multiradiata,8.0,2011-02-01
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris klunzingeri,23.0,2011-02-01
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris multiradiata,12.0,2011-02-01
+-35.52,138.16,South Australia,Encounter,Rapid Head,Pempheridae,Pempheris klunzingeri,1.0,2011-01-31
+-35.52,138.16,South Australia,Encounter,Rapid Head,Pempheridae,Pempheris klunzingeri,12.0,2011-01-31
+-35.52,138.16,South Australia,Encounter,Rapid Head,Pempheridae,Pempheris multiradiata,4.0,2011-01-31
+-35.4,138.33,South Australia,Encounter,Shag Rock Carrickalinga,Pempheridae,Pempheris multiradiata,1.0,2011-02-01
+-35.4,138.33,South Australia,Encounter,Shag Rock Carrickalinga,Pempheridae,Pempheris klunzingeri,4.0,2011-02-01
+-35.4,138.33,South Australia,Encounter,Shag Rock Carrickalinga,Pempheridae,Pempheris multiradiata,1.0,2011-02-01
+-35.27,138.43,South Australia,Encounter,Aldinga Reef Inshore,Pempheridae,Pempheris klunzingeri,10.0,2011-02-02
+-35.27,138.43,South Australia,Encounter,Aldinga Reef Inshore,Pempheridae,Pempheris multiradiata,4.0,2011-02-02
+-35.27,138.43,South Australia,Encounter,Aldinga Reef Inshore,Pempheridae,Pempheris klunzingeri,1.0,2011-02-02
+-28.19,114.23,Western Australia,WA - central,Crab pot Corner,Pempheridae,Pempheris klunzingeri,1.0,2010-05-20
+-28.19,114.23,Western Australia,WA - central,Crab pot Corner,Pempheridae,Pempheris klunzingeri,2.0,2010-05-20
+-28.19,114.23,Western Australia,WA - central,Crab pot Corner,Pempheridae,Pempheris klunzingeri,1.0,2010-05-20
+-32.02,115.5,Western Australia,Rottnest Island,Green Island Reserve 1,Pempheridae,Pempheris multiradiata,1.0,2010-05-16
+-32.02,115.5,Western Australia,Rottnest Island,Green Island Reserve 1,Pempheridae,Pempheris klunzingeri,5.0,2010-05-16
+-32.02,115.56,Western Australia,Rottnest Island,The Count,Pempheridae,Pempheris multiradiata,1.0,2010-05-16
+-33.53,115.01,Western Australia,Ngari Capes,Cape naturaliste E 10m,Pempheridae,Pempheris klunzingeri,2.0,2009-04-11
+-32.02,115.55,Western Australia,Rottnest Island,Crystal palace,Pempheridae,Pempheris multiradiata,1.0,2008-07-26
+-32.02,115.55,Western Australia,Rottnest Island,Crystal palace,Pempheridae,Pempheris klunzingeri,4.0,2010-05-16
+-32.02,115.55,Western Australia,Rottnest Island,Crystal palace,Pempheridae,Pempheris multiradiata,4.0,2010-05-16
+-32.02,115.51,Western Australia,Rottnest Island,Green Island Wall,Pempheridae,Pempheris klunzingeri,50.0,2010-05-15
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Pempheridae,Pempheris multiradiata,1.0,2009-07-27
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris klunzingeri,1.0,2010-05-14
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris klunzingeri,30.0,2010-05-14
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris multiradiata,2.0,2010-05-14
+-35.04,117.92,Western Australia,Albany,Possession Pt,Dinolestidae,Dinolestes lewini,1.0,2009-01-23
+-35.06,117.95,Western Australia,Albany,Mistaken Is East,Pempheridae,Pempheris klunzingeri,1.0,2009-01-24
+-35.07,117.98,Western Australia,Albany,Seal Is,Pempheridae,Pempheris klunzingeri,100.0,2009-01-24
+-35.06,118.04,Western Australia,Albany,Breaksea Cove,Pempheridae,Pempheris klunzingeri,2.0,2009-01-25
+-33.23,115.63,Western Australia,Bunbury,Bunbury North 2 - Leather Jacket Caves North,Pempheridae,Pempheris multiradiata,1.0,2010-03-06
+-32.02,115.52,Western Australia,Rottnest Island,Salmon Bay,Pempheridae,Pempheris klunzingeri,1.0,2008-07-27
+-32.12,115.76,Western Australia,Perth Metro,Ammo Jetty,Carangidae,Trachurus novaezelandiae,100.0,2008-04-19
+-32.12,115.76,Western Australia,Perth Metro,Ammo Jetty,Plotosidae,Plotosus lineatus,50.0,2008-04-20
+-22.1,113.88,Western Australia,Ningaloo Reef - North,Turquoise Bay (Sanctuary zone),Pempheridae,Pempheris multiradiata,13.0,2008-04-01
+-30.26,114.98,Western Australia,Jurien,North Tail,Pempheridae,Pempheris klunzingeri,1.0,2009-11-28
+-30.41,114.98,Western Australia,Jurien,Offshore Hill River,Pempheridae,Pempheris klunzingeri,10.0,2009-11-30
+-32.03,115.58,Western Australia,Rottnest Island,Jackson Rocks,Pempheridae,Pempheris multiradiata,4.0,2008-10-19
+-32.03,115.58,Western Australia,Rottnest Island,Jackson Rocks,Pempheridae,Pempheris klunzingeri,4.0,2010-05-16
+-32.03,115.58,Western Australia,Rottnest Island,Jackson Rocks,Pempheridae,Pempheris multiradiata,1.0,2010-05-16
+-35.06,117.94,Western Australia,Albany,Mistaken Is  Albany,Pempheridae,Pempheris multiradiata,1.0,2009-01-24
+-35.06,117.94,Western Australia,Albany,Mistaken Is  Albany,Pempheridae,Pempheris klunzingeri,1.0,2009-01-24
+-34.47,119.36,Western Australia,WA - South Coast,Little boat harbour  Bremer Bay,Carangidae,Trachurus novaezelandiae,20.0,2008-02-17
+-33.99,122.22,Western Australia,Recherche,Lucky Bay  Cape Le-grand national park,Arripidae,Arripis georgianus,10.0,2008-02-20
+-33.85,121.9,Western Australia,Recherche,Tanker Jetty  Esperance,Carangidae,Trachurus novaezelandiae,600.0,2008-02-21
+-33.85,121.9,Western Australia,Recherche,Tanker Jetty  Esperance,Dinolestidae,Dinolestes lewini,200.0,2008-02-21
+-32.09,115.75,Western Australia,Perth Metro,Robbs Jetty,Plotosidae,Plotosus lineatus,30.0,2008-04-06
+-31.86,115.75,Western Australia,Marmion,North Beach Fishing Platform  Perth,Dinolestidae,Dinolestes lewini,1.0,2008-03-26
+-31.86,115.75,Western Australia,Marmion,North Beach Fishing Platform  Perth,Arripidae,Arripis georgianus,1.0,2008-05-18
+-31.86,115.75,Western Australia,Marmion,North Beach Fishing Platform  Perth,Arripidae,Arripis truttaceus,1.0,2008-05-18
+-32.03,115.52,Western Australia,Rottnest Island,Little Salmon Bay  Rottnest,Arripidae,Arripis georgianus,20.0,2008-12-17
+-31.85,115.75,Western Australia,Marmion,Waterman Bay,Arripidae,Arripis georgianus,1.0,2009-01-16
+-31.99,115.56,Western Australia,Rottnest Island,Kingston Reef,Pempheridae,Pempheris klunzingeri,200.0,2011-05-23
+-31.99,115.54,Western Australia,Rottnest Island,Duck Rock South,Pempheridae,Pempheris klunzingeri,50.0,2011-05-23
+-32.02,115.51,Western Australia,Rottnest Island,Green Island Wall,Pempheridae,Pempheris multiradiata,1.0,2011-05-22
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Pempheridae,Pempheris multiradiata,1.0,2011-05-22
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris multiradiata,1.0,2011-05-21
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris multiradiata,2.0,2011-05-21
+-43.05,147.35,Tasmania,Tinderbox,Piersons Pt North,Pempheridae,Pempheris multiradiata,1.0,2010-01-11
+-43.05,147.35,Tasmania,Tinderbox,Piersons Pt North,Pempheridae,Pempheris multiradiata,2.0,2010-01-11
+-43.05,147.35,Tasmania,Tinderbox,Piersons Pt North,Pempheridae,Pempheris multiradiata,2.0,2010-01-11
+-43.05,147.35,Tasmania,Tinderbox,Piersons Pt North,Pempheridae,Pempheris multiradiata,9.0,2010-01-11
+-43.03,147.34,Tasmania,Tinderbox,Nth Lucas Pt,Pempheridae,Pempheris multiradiata,2.0,2010-01-11
+-43.02,147.33,Tasmania,D'Entrecasteaux & Derwent,Fossil Cliffs Blackmans Bay,Pempheridae,Pempheris multiradiata,1.0,2010-01-13
+-42.97,147.4,Tasmania,D'Entrecasteaux & Derwent,Gellibrands Grave,Pempheridae,Pempheris multiradiata,4.0,2009-11-13
+-43.04,147.34,Tasmania,D'Entrecasteaux & Derwent,Hales Farm,Pempheridae,Pempheris multiradiata,51.0,2009-11-15
+-42.88,147.37,Tasmania,D'Entrecasteaux & Derwent,Bellerive Oval,Pempheridae,Pempheris multiradiata,5.0,2009-11-26
+-42.88,147.37,Tasmania,D'Entrecasteaux & Derwent,Bellerive Oval,Pempheridae,Pempheris multiradiata,4.0,2009-11-26
+-43.07,147.37,Tasmania,Tinderbox,NorthBruny,Pempheridae,Pempheris multiradiata,1.0,2010-01-06
+-43.03,147.34,Tasmania,Tinderbox,Nth Lucas Pt,Pempheridae,Pempheris multiradiata,1.0,2010-01-06
+-43.03,147.34,Tasmania,Tinderbox,Nth Lucas Pt,Pempheridae,Pempheris multiradiata,1.0,2010-01-06
+-43.03,147.34,Tasmania,Tinderbox,Nth Lucas Pt,Plesiopidae,Trachinops caudimaculatus,15.0,2010-01-06
+-43.0,147.33,Tasmania,D'Entrecasteaux & Derwent,Blackmans Bay Blowhole,Pempheridae,Pempheris multiradiata,25.0,2010-02-11
+-43.0,147.33,Tasmania,D'Entrecasteaux & Derwent,Blackmans Bay Blowhole,Pempheridae,Pempheris multiradiata,6.0,2010-02-11
+-43.0,147.33,Tasmania,D'Entrecasteaux & Derwent,Blackmans Bay Blowhole,Pempheridae,Pempheris multiradiata,1.0,2010-02-11
+-42.85,147.33,Tasmania,D'Entrecasteaux & Derwent,Cornelian Bay,Plesiopidae,Trachinops caudimaculatus,23.0,2010-02-12
+-42.85,147.33,Tasmania,D'Entrecasteaux & Derwent,Cornelian Bay,Plesiopidae,Trachinops caudimaculatus,15.0,2010-02-12
+-42.83,147.33,Tasmania,D'Entrecasteaux & Derwent,Bedlam Walls North,Plesiopidae,Trachinops caudimaculatus,95.0,2010-02-01
+-42.83,147.33,Tasmania,D'Entrecasteaux & Derwent,Bedlam Walls North,Plesiopidae,Trachinops caudimaculatus,80.0,2010-02-01
+-42.84,147.33,Tasmania,D'Entrecasteaux & Derwent,Bedlam Walls South,Plesiopidae,Trachinops caudimaculatus,78.0,2010-02-01
+-42.84,147.33,Tasmania,D'Entrecasteaux & Derwent,Bedlam Walls South,Plesiopidae,Trachinops caudimaculatus,60.0,2010-02-01
+-42.84,147.34,Tasmania,D'Entrecasteaux & Derwent,Point South of Gielston Bay,Pempheridae,Pempheris multiradiata,1.0,2010-02-03
+-42.87,147.35,Tasmania,D'Entrecasteaux & Derwent,Rosny Point North,Plesiopidae,Trachinops caudimaculatus,127.0,2010-02-04
+-42.87,147.35,Tasmania,D'Entrecasteaux & Derwent,Rosny Point North,Plesiopidae,Trachinops caudimaculatus,47.0,2010-02-04
+-42.88,147.37,Tasmania,D'Entrecasteaux & Derwent,Bellerieve Bluff,Pempheridae,Pempheris multiradiata,1.0,2010-02-04
+-42.88,147.37,Tasmania,D'Entrecasteaux & Derwent,Bellerieve Bluff,Pempheridae,Pempheris multiradiata,1.0,2010-02-04
+-42.88,147.39,Tasmania,D'Entrecasteaux & Derwent,Bellerieve/Howrah Bluff,Pempheridae,Pempheris multiradiata,1.0,2010-02-04
+-42.88,147.39,Tasmania,D'Entrecasteaux & Derwent,Bellerieve/Howrah Bluff,Plesiopidae,Trachinops caudimaculatus,1200.0,2010-02-04
+-43.0,147.33,Tasmania,D'Entrecasteaux & Derwent,Blackmans bay blow hole,Pempheridae,Pempheris multiradiata,3.0,2008-03-18
+-42.99,147.4,Tasmania,D'Entrecasteaux & Derwent,Glenvar beach,Pempheridae,Pempheris multiradiata,33.0,2009-01-18
+-42.99,147.4,Tasmania,D'Entrecasteaux & Derwent,Glenvar beach,Pempheridae,Pempheris multiradiata,15.0,2009-01-18
+-42.99,147.4,Tasmania,D'Entrecasteaux & Derwent,Glenvar beach,Plesiopidae,Trachinops caudimaculatus,5.0,2009-01-18
+-42.99,147.4,Tasmania,D'Entrecasteaux & Derwent,Glenvar beach,Pempheridae,Pempheris multiradiata,2.0,2009-01-23
+-42.59,148.05,Tasmania,Maria Island,Painted Cliffs,Pempheridae,Pempheris multiradiata,1.0,2008-01-09
+-42.74,147.92,Tasmania,Tasmania - South East,Hellfire Bluff,Pempheridae,Pempheris multiradiata,5.0,2008-01-07
+-42.74,147.92,Tasmania,Tasmania - South East,Hellfire Bluff,Pempheridae,Pempheris multiradiata,2.0,2008-01-07
+-42.72,148.07,Tasmania,Tasmania - South East,Haunted Cove,Pempheridae,Pempheris multiradiata,2.0,2008-01-08
+-42.72,148.07,Tasmania,Tasmania - South East,Haunted Cove,Pempheridae,Pempheris multiradiata,2.0,2008-01-08
+-42.72,148.07,Tasmania,Tasmania - South East,Haunted Cove,Pempheridae,Pempheris multiradiata,2.0,2008-01-08
+-42.66,148.11,Tasmania,Tasmania - South East,Whalers cove (>10),Pempheridae,Pempheris multiradiata,22.0,2008-01-08
+-42.66,148.11,Tasmania,Tasmania - South East,Whalers cove (>10),Pempheridae,Pempheris multiradiata,3.0,2008-01-08
+-42.59,148.05,Tasmania,Maria Island,Magistrates Point offshore,Pempheridae,Pempheris multiradiata,25.0,2008-01-09
+-42.59,148.05,Tasmania,Maria Island,Magistrates Point offshore,Plesiopidae,Trachinops caudimaculatus,15.0,2008-01-09
+-41.87,148.3,Tasmania,Bicheno,Waubs Bay Inner,Pempheridae,Pempheris multiradiata,1.0,2008-05-03
+-41.87,148.3,Tasmania,Bicheno,Waubs Bay Inner,Pempheridae,Pempheris multiradiata,2.0,2008-05-03
+-42.94,147.64,Tasmania,Tasmania - South East,Slopen I,Plesiopidae,Trachinops caudimaculatus,19.0,2008-01-07
+-43.04,147.48,Tasmania,Tasmania - South East,NE Betsey,Pempheridae,Pempheris multiradiata,4.0,2009-03-08
+-43.09,147.32,Tasmania,D'Entrecasteaux & Derwent,Inner Bligh,Pempheridae,Pempheris multiradiata,1.0,2009-03-09
+-42.26,148.26,Tasmania,Tasmania - North East,Bryans West,Pempheridae,Pempheris multiradiata,4.0,2011-01-15
+-42.18,148.26,Tasmania,Tasmania - North East,Refuge Island,Plesiopidae,Trachinops caudimaculatus,1.0,2011-01-13
+-33.92,151.27,New South Wales,Sydney,South Clovelly,Carangidae,Seriola lalandi,25.0,2012-03-16
+-33.92,151.27,New South Wales,Sydney,Shark Point South,Carangidae,Seriola lalandi,25.0,2012-03-16
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Dinolestidae,Dinolestes lewini,10.0,2012-03-18
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Dinolestidae,Dinolestes lewini,20.0,2012-03-19
+-42.59,147.93,Tasmania,Maria Island,Stapleton Point,Carangidae,Seriola lalandi,33.0,2012-01-14
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Arripidae,Arripis trutta,80.0,2011-10-01
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Arripidae,Arripis trutta,60.0,2011-10-01
+-30.24,153.18,New South Wales,Solitary Islands,Turtle cove,Pempheridae,Pempheris compressa,1.0,2011-08-14
+-30.24,153.18,New South Wales,Solitary Islands,Turtle cove,Pempheridae,Pempheris compressa,1.0,2011-08-14
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Plotosidae,Plotosus lineatus,200.0,2012-03-09
+-34.44,119.4,Western Australia,WA - South Coast,Short Beach north,Carangidae,Seriola lalandi,1.0,2008-12-25
+-32.62,152.33,New South Wales,Port Stephens,Elephant Rock,Carangidae,Seriola lalandi,200.0,2013-07-12
+-32.72,152.15,New South Wales,Port Stephens,Seahorse gardens,Plesiopidae,Trachinops taeniatus,1.0,2013-01-13
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Plesiopidae,Trachinops taeniatus,1.0,2013-04-05
+-35.06,150.77,New South Wales,Jervis Bay,Honeymoon Bay 300m South,Plesiopidae,Trachinops taeniatus,6.0,2013-04-06
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Pempheridae,Pempheris compressa,3.0,2013-04-08
+-35.13,150.73,New South Wales,Jervis Bay,Bristol Pt,Dinolestidae,Dinolestes lewini,100.0,2013-04-04
+-32.03,115.53,Western Australia,Rottnest Island,Pocillopora Reef,Pempheridae,Pempheris multiradiata,1.0,2013-05-13
+-33.81,151.31,New South Wales,Sydney,BLUE FISH POINT - NORTH HEAD SYDNEY,Dinolestidae,Dinolestes lewini,1.0,2014-03-23
+-31.97,115.54,Western Australia,Rottnest Island,Roe Reef,Dinolestidae,Dinolestes lewini,3.0,2014-05-18
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Pempheridae,Pempheris klunzingeri,20.0,2014-05-19
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Pempheridae,Pempheris klunzingeri,250.0,2014-05-19
+-32.02,115.5,Western Australia,Rottnest Island,Green Island Reserve 1,Pempheridae,Pempheris klunzingeri,3.0,2014-05-17
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris klunzingeri,15.0,2014-05-16
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris klunzingeri,15.0,2014-05-16
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris klunzingeri,20.0,2014-05-16
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris klunzingeri,20.0,2014-05-16
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris multiradiata,3.0,2014-05-16
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris multiradiata,2.0,2014-05-16
+-31.99,115.5,Western Australia,Rottnest Island,Armstrong Bay,Pempheridae,Pempheris multiradiata,2.0,2014-05-16
+-38.37,144.82,Victoria,Port Phillip Bay,Rye Pier step off,Plesiopidae,Trachinops caudimaculatus,1.0,2013-10-14
+-38.14,144.71,Victoria,Port Phillip Bay,P.S.Ozone,Plesiopidae,Trachinops caudimaculatus,1.0,2013-10-03
+-38.11,144.65,Victoria,Port Phillip Bay,Portarlington Pier,Plesiopidae,Trachinops caudimaculatus,5.0,2013-10-03
+-38.11,144.65,Victoria,Port Phillip Bay,Portarlington Pier,Plesiopidae,Trachinops caudimaculatus,16.0,2013-10-03
+-38.11,144.65,Victoria,Port Phillip Bay,Portarlington Pier,Plesiopidae,Trachinops caudimaculatus,5.0,2013-10-03
+-33.82,151.27,New South Wales,Sydney,Middle Head North East,Dinolestidae,Dinolestes lewini,50.0,2013-04-10
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Dinolestidae,Dinolestes lewini,2.0,2014-11-26
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Dinolestidae,Dinolestes lewini,1.0,2014-11-26
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Pempheridae,Pempheris compressa,2.0,2014-11-26
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Pempheridae,Pempheris multiradiata,2.0,2014-12-03
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Pempheridae,Pempheris affinis,1.0,2014-12-06
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Pempheridae,Pempheris affinis,1.0,2014-12-06
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Carangidae,Seriola lalandi,1.0,2014-11-26
+-35.05,150.84,New South Wales,Jervis Bay,Drum & Drum Sticks,Carangidae,Seriola lalandi,3.0,2014-12-06
+-35.03,150.85,New South Wales,Jervis Bay,Pyramid Rock D1,Pempheridae,Pempheris multiradiata,1.0,2014-12-03
+-35.03,150.85,New South Wales,Jervis Bay,Pyramid Rock D1,Plesiopidae,Trachinops taeniatus,35.0,2014-12-03
+-35.03,150.85,New South Wales,Jervis Bay,Pyramid Rock D1,Plesiopidae,Trachinops taeniatus,20.0,2014-12-03
+-35.06,150.84,New South Wales,Jervis Bay,South Lamond,Pempheridae,Pempheris multiradiata,2.0,2014-12-06
+-35.06,150.84,New South Wales,Jervis Bay,South Lamond,Pempheridae,Pempheris multiradiata,1.0,2014-12-06
+-35.06,150.84,New South Wales,Jervis Bay,South Lamond,Pempheridae,Pempheris multiradiata,1.0,2014-11-29
+-35.06,150.84,New South Wales,Jervis Bay,South Lamond,Dinolestidae,Dinolestes lewini,2.0,2014-12-05
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,3.0,2014-11-28
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,1.0,2014-11-28
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,6.0,2014-12-02
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,7.0,2014-12-02
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,8.0,2014-12-02
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,1.0,2014-12-02
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,5.0,2014-12-02
+-35.18,150.75,New South Wales,Jervis Bay,Steamer's Head,Pempheridae,Pempheris multiradiata,7.0,2014-12-02
+-35.18,150.74,New South Wales,Jervis Bay,North Steamer's Head,Pempheridae,Pempheris multiradiata,1.0,2014-12-02
+-35.18,150.74,New South Wales,Jervis Bay,North Steamer's Head,Pempheridae,Pempheris multiradiata,1.0,2014-12-02
+-35.18,150.74,New South Wales,Jervis Bay,North Steamer's Head,Pempheridae,Pempheris multiradiata,1.0,2014-12-02
+-35.18,150.74,New South Wales,Jervis Bay,North Steamer's Head,Pempheridae,Pempheris multiradiata,4.0,2014-12-02
+-35.18,150.74,New South Wales,Jervis Bay,North Steamer's Head,Pempheridae,Pempheris affinis,1.0,2014-12-02
+-35.18,150.74,New South Wales,Jervis Bay,North Steamer's Head,Plesiopidae,Trachinops taeniatus,3.0,2014-11-24
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Carangidae,Seriola lalandi,25.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Carangidae,Seriola lalandi,25.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Carangidae,Seriola lalandi,25.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Carangidae,Seriola lalandi,25.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Carangidae,Seriola lalandi,500.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Carangidae,Seriola lalandi,500.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Pempheridae,Pempheris multiradiata,5.0,2014-12-04
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Dinolestidae,Dinolestes lewini,15.0,2014-11-28
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Pempheridae,Pempheris affinis,20.0,2014-11-28
+-35.14,150.77,New South Wales,Jervis Bay,Governors Head Caves,Dinolestidae,Dinolestes lewini,1.0,2014-11-28
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris affinis,1.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris multiradiata,1.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Plesiopidae,Trachinops taeniatus,4.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Plesiopidae,Trachinops taeniatus,15.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris multiradiata,5.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris multiradiata,2.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Dinolestidae,Dinolestes lewini,1.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris multiradiata,7.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris multiradiata,7.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris multiradiata,8.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Plesiopidae,Trachinops taeniatus,5.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Carangidae,Seriola lalandi,9.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Plesiopidae,Trachinops taeniatus,3.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Carangidae,Seriola lalandi,14.0,2014-12-04
+-35.2,150.7,New South Wales,Jervis Bay,St George's Point,Pempheridae,Pempheris compressa,30.0,2014-12-04
+-34.04,151.2,New South Wales,Sydney,Boat Harbour inside reserve,Pempheridae,Pempheris compressa,8.0,2015-04-16
+-34.04,151.2,New South Wales,Sydney,Boat Harbour inside reserve,Pempheridae,Pempheris compressa,5.0,2015-04-16
+-34.04,151.2,New South Wales,Sydney,Boat Harbour inside reserve,Pempheridae,Pempheris multiradiata,1.0,2015-04-16
+-34.04,151.2,New South Wales,Sydney,Boat Harbour inside reserve,Pempheridae,Pempheris compressa,8.0,2015-04-16
+-34.04,151.2,New South Wales,Sydney,Boat Harbour inside reserve,Pempheridae,Pempheris compressa,5.0,2015-04-16
+-34.04,151.2,New South Wales,Sydney,Boat Harbour inside reserve,Pempheridae,Pempheris multiradiata,1.0,2015-04-16
+-33.84,151.29,New South Wales,Sydney,The Gap,Pempheridae,Pempheris affinis,20.0,2015-03-20
+-33.84,151.29,New South Wales,Sydney,The Gap,Pempheridae,Pempheris affinis,30.0,2015-03-20
+-33.83,151.27,New South Wales,Sydney,Middle Head Sth,Carangidae,Trachurus novaezelandiae,100.0,2015-03-21
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris affinis,1.0,2015-03-22
+-33.82,151.29,New South Wales,Sydney,Inside North Head,Pempheridae,Pempheris compressa,20.0,2015-03-22
+-33.82,151.29,New South Wales,Sydney,Old Mans Hat,Pempheridae,Pempheris affinis,20.0,2015-03-23
+-33.84,151.29,New South Wales,Sydney,The Gap,Carangidae,Seriola lalandi,1.0,2015-03-20
+-23.16,113.76,Western Australia,Ningaloo Reef,Monck Head Outer,Plotosidae,Plotosus lineatus,30.0,2015-07-25
+-35.52,138.16,South Australia,Encounter,Rapid Head,Carangidae,Seriola lalandi,20.0,2014-02-05
+-35.52,138.16,South Australia,Encounter,Rapid Head,Carangidae,Seriola lalandi,20.0,2014-02-05
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Dinolestidae,Dinolestes lewini,100.0,2015-05-25
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Dinolestidae,Dinolestes lewini,100.0,2015-05-25
+-32.03,115.44,Western Australia,Rottnest Island,West End  Rottnest,Carangidae,Seriola lalandi,10.0,2015-05-23
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Dinolestidae,Dinolestes lewini,50.0,2015-05-25
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Dinolestidae,Dinolestes lewini,50.0,2015-05-25
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Pempheridae,Pempheris klunzingeri,80.0,2015-05-25
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Pempheridae,Pempheris klunzingeri,150.0,2015-05-25
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Dinolestidae,Dinolestes lewini,1.0,2012-11-02
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Dinolestidae,Dinolestes lewini,1.0,2012-11-02
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Carangidae,Seriola lalandi,8.0,2015-11-28
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Pempheridae,Pempheris compressa,15.0,2015-10-10
+-33.8,151.3,New South Wales,Sydney,Shelley Beach North,Pempheridae,Pempheris compressa,5.0,2015-10-10
+-19.81,149.07,Queensland,GBR - South,Bait Reef inner buoy,Ptereleotridae,Aioliops novaeguineae,10.0,2016-06-11
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Arripidae,Arripis georgianus,1000.0,2016-05-20
+-31.79,115.72,Western Australia,Marmion,The Lumps South Start,Pempheridae,Pempheris klunzingeri,30.0,2015-06-14
+-31.79,115.72,Western Australia,Marmion,The Lumps South Start,Pempheridae,Pempheris klunzingeri,16.0,2015-06-14
+-31.79,115.72,Western Australia,Marmion,The Lumps South Start,Pempheridae,Pempheris multiradiata,1.0,2015-06-14
+-31.79,115.72,Western Australia,Marmion,The Lumps South Start,Pempheridae,Pempheris multiradiata,1.0,2015-06-14
+-29.93,153.39,New South Wales,Solitary Islands,Canyons North Solitary,Carangidae,Seriola lalandi,40.0,2016-05-07
+-33.84,151.28,New South Wales,Sydney,Green Point Camp Cove,Dinolestidae,Dinolestes lewini,20.0,2016-03-19
+-23.13,113.76,Western Australia,Ningaloo Reef,Bills Bay 1,Plotosidae,Plotosus lineatus,70.0,2016-08-02
+-23.17,113.76,Western Australia,Ningaloo Reef,Monck Wall,Plotosidae,Plotosus lineatus,100.0,2016-08-01
+-32.74,152.19,New South Wales,Port Stephens,Governers Wharf (Fingal Island),Carangidae,Seriola lalandi,5.0,2016-12-04
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Plesiopidae,Trachinops caudimaculatus,28.0,2017-02-03
+-38.32,144.71,Victoria,Port Phillip Heads,Portsea Bay Reef,Dinolestidae,Dinolestes lewini,1.0,2017-02-04
+-39.04,146.3,Victoria,Wilsons Promontory,Pillar Pt,Dinolestidae,Dinolestes lewini,1.0,2017-02-27
+-39.04,146.47,Victoria,Wilsons Promontory,North Refuge,Carangidae,Seriola lalandi,30.0,2017-02-24
+-39.13,146.38,Victoria,Wilsons Promontory,Roaring Meg Bight,Dinolestidae,Dinolestes lewini,10.0,2017-02-25
+-39.13,146.38,Victoria,Wilsons Promontory,Roaring Meg Bight,Pempheridae,Pempheris multiradiata,2.0,2017-02-25
+-39.14,146.32,Victoria,Wilsons Promontory,North Anser Is,Plesiopidae,Trachinops caudimaculatus,3.0,2017-02-28
+-35.52,138.16,South Australia,Encounter,Rapid Head,Pempheridae,Pempheris klunzingeri,40.0,2017-03-24
+-35.52,138.16,South Australia,Encounter,Rapid Head,Pempheridae,Pempheris multiradiata,2.0,2017-03-24
+-35.52,138.17,South Australia,Encounter,Rapid Head SZ,Pempheridae,Pempheris multiradiata,1.0,2017-03-25
+-35.52,138.18,South Australia,Encounter,Rapid Head East,Pempheridae,Pempheris klunzingeri,1.0,2017-03-25
+-35.37,138.38,South Australia,Encounter,Carrickalinga Nth,Plesiopidae,Trachinops caudimaculatus,55.0,2017-03-26
+-35.52,138.16,South Australia,Encounter,Rapid Head,Dinolestidae,Dinolestes lewini,3.0,2017-03-24
+-12.29,143.4,Queensland,QLD inshore - North,Forbes Island Isthmus Rf,Ptereleotridae,Aioliops novaeguineae,300.0,2016-12-29
+-14.0,144.68,Queensland,GBR - North,Surprise Reef,Ptereleotridae,Aioliops novaeguineae,50.0,2017-01-01
+-14.69,145.47,Queensland,GBR - North,Bird Islets,Ptereleotridae,Aioliops novaeguineae,40.0,2017-01-02
+-14.69,145.47,Queensland,GBR - North,Bird Islets,Ptereleotridae,Aioliops novaeguineae,240.0,2017-01-02
+-14.69,145.44,Queensland,GBR - North,Horseshoe Reef,Ptereleotridae,Aioliops novaeguineae,150.0,2017-01-03
+-14.69,145.46,Queensland,GBR - North,Blue Hole,Ptereleotridae,Aioliops novaeguineae,140.0,2017-01-03
+-14.69,145.46,Queensland,GBR - North,Blue Hole,Ptereleotridae,Aioliops novaeguineae,130.0,2017-01-03
+-14.52,145.53,Queensland,GBR - North,Day Reef Inner,Ptereleotridae,Aioliops novaeguineae,260.0,2017-01-05
+-15.98,145.83,Queensland,GBR - Central,Agincourt Reef - The Gap,Ptereleotridae,Aioliops novaeguineae,120.0,2017-01-06
+-14.65,145.45,Queensland,GBR - North,Cobia Hole,Ptereleotridae,Aioliops novaeguineae,500.0,2017-01-02
+-14.68,145.47,Queensland,GBR - North,Loomis Reef,Ptereleotridae,Aioliops novaeguineae,108.0,2017-01-03
+-14.69,145.47,Queensland,GBR - North,Blue Lagoon Channel,Ptereleotridae,Aioliops novaeguineae,175.0,2017-01-03
+-14.69,145.47,Queensland,GBR - North,Blue Lagoon Channel,Ptereleotridae,Aioliops novaeguineae,50.0,2017-01-03
+-14.69,145.47,Queensland,GBR - North,Blue Lagoon Channel,Ptereleotridae,Aioliops novaeguineae,50.0,2017-01-03
+-14.66,145.45,Queensland,GBR - North,Watsons-Turtle Reef,Ptereleotridae,Aioliops novaeguineae,424.0,2017-01-04
+-14.51,145.52,Queensland,GBR - North,Day Reef Bommie,Ptereleotridae,Aioliops novaeguineae,81.0,2017-01-05
+-15.96,145.8,Queensland,GBR - Central,Agincourt Reef - Three Sisters,Ptereleotridae,Aioliops novaeguineae,51.0,2017-01-06
+-31.97,115.54,Western Australia,Rottnest Island,Roe Reef,Pempheridae,Pempheris multiradiata,2.0,2017-05-27
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Pempheridae,Pempheris klunzingeri,1.0,2017-05-13
+-32.03,115.53,Western Australia,Rottnest Island,Pocillopora Reef,Arripidae,Arripis georgianus,200.0,2017-05-28
+-33.84,151.29,New South Wales,Sydney,The Gap,Plesiopidae,Trachinops taeniatus,10.0,2017-03-25
+-33.84,151.29,New South Wales,Sydney,The Gap,Plesiopidae,Trachinops taeniatus,30.0,2017-03-25
+-33.84,151.29,New South Wales,Sydney,The Gap,Plesiopidae,Trachinops taeniatus,10.0,2017-03-25
+-33.58,151.33,New South Wales,NSW - Central,Dragon Alley,Dinolestidae,Dinolestes lewini,2.0,2017-04-07
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,5.0,2018-02-04
+-35.08,150.79,New South Wales,Jervis Bay,The Docks 2 Inner Tubes,Carangidae,Seriola lalandi,1.0,2018-04-14
+-35.65,138.26,South Australia,Encounter,Backstairs Deep,Pempheridae,Pempheris multiradiata,2.0,2017-04-06
+-35.61,138.59,South Australia,Encounter,West Island,Arripidae,Arripis truttaceus,100.0,2017-05-09
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Carangidae,Seriola lalandi,7.0,2018-04-01
+-32.27,115.68,Western Australia,Shoalwater,Point Peron North,Pempheridae,Pempheris klunzingeri,1.0,2018-03-11
+-33.68,134.52,South Australia,Eyre Peninsula,Flinders Island North,Pempheridae,Pempheris multiradiata,100.0,2018-03-22
+-33.68,134.52,South Australia,Eyre Peninsula,Flinders Island North,Pempheridae,Pempheris multiradiata,20.0,2018-03-22
+-32.62,152.33,New South Wales,Port Stephens,Elephant Rock,Carangidae,Seriola lalandi,10.0,2015-06-28
+-31.99,115.56,Western Australia,Rottnest Island,Kingston Reef,Carangidae,Seriola lalandi,6.0,2018-06-16
+-33.58,151.33,New South Wales,NSW - Central,Dragon Alley,Pempheridae,Pempheris compressa,2.0,2018-04-21
+-33.58,151.33,New South Wales,NSW - Central,Dragon Alley,Pempheridae,Pempheris compressa,1.0,2018-04-21
+-33.62,151.34,New South Wales,NSW - Central,The Ovens,Pempheridae,Pempheris compressa,20.0,2018-04-21
+-35.59,137.3,South Australia,Kangaroo Island,Cassini West,Pempheridae,Pempheris multiradiata,1.0,2014-03-28
+-35.59,137.3,South Australia,Kangaroo Island,Cassini West,Arripidae,Arripis georgianus,10.0,2014-03-28
+-35.59,137.3,South Australia,Kangaroo Island,Cassini West,Pempheridae,Pempheris multiradiata,2.0,2014-03-28
+-35.68,136.91,South Australia,Kangaroo Island,Big_W,Dinolestidae,Dinolestes lewini,4.0,2014-03-29
+-35.68,136.91,South Australia,Kangaroo Island,Big_W,Pempheridae,Pempheris multiradiata,2.0,2014-03-29
+-35.68,136.91,South Australia,Kangaroo Island,Big_W,Dinolestidae,Dinolestes lewini,2.0,2014-03-29
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Arripidae,Arripis georgianus,50.0,2014-03-29
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris multiradiata,5.0,2014-03-29
+-35.62,137.21,South Australia,Kangaroo Island,Stokes East,Pempheridae,Pempheris klunzingeri,2.0,2014-03-31
+-35.62,137.21,South Australia,Kangaroo Island,Stokes East,Pempheridae,Pempheris multiradiata,50.0,2014-03-31
+-35.58,137.49,South Australia,Kangaroo Island,Cape D'Straing,Pempheridae,Pempheris multiradiata,12.0,2014-03-28
+-35.59,137.3,South Australia,Kangaroo Island,Cassini West,Pempheridae,Pempheris multiradiata,1.0,2014-03-28
+-35.59,137.3,South Australia,Kangaroo Island,Cassini West,Pempheridae,Pempheris multiradiata,1.0,2014-03-28
+-35.68,136.91,South Australia,Kangaroo Island,Big_W,Dinolestidae,Dinolestes lewini,1.0,2014-03-29
+-35.68,136.91,South Australia,Kangaroo Island,Big_W,Dinolestidae,Dinolestes lewini,1.0,2014-03-29
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris multiradiata,20.0,2014-03-29
+-35.69,136.86,South Australia,Kangaroo Island,Snug_Cove_East,Pempheridae,Pempheris multiradiata,2.0,2014-03-29
+-35.58,137.49,South Australia,Kangaroo Island,Cape D'Straing,Pempheridae,Pempheris multiradiata,1.0,2014-03-28
+-35.63,137.14,South Australia,Kangaroo Island,Cape Dutton,Arripidae,Arripis georgianus,2.0,2014-03-31
+-30.2,153.27,New South Wales,Solitary Islands,Manta Arch,Plesiopidae,Trachinops taeniatus,17.0,2013-04-26
+-35.72,137.99,South Australia,Encounter,Grassy Knoll,Dinolestidae,Dinolestes lewini,60.0,2018-02-11
+-35.72,137.99,South Australia,Encounter,Grassy Knoll,Dinolestidae,Dinolestes lewini,10.0,2018-02-11
+-35.72,137.99,South Australia,Encounter,Grassy Knoll,Dinolestidae,Dinolestes lewini,5.0,2018-02-11
+-35.73,138.02,South Australia,Encounter,Cable Hut,Pempheridae,Pempheris multiradiata,10.0,2018-02-11
+-35.37,138.38,South Australia,Encounter,Carrickalinga Nth,Dinolestidae,Dinolestes lewini,16.0,2018-03-13
+-35.16,138.47,South Australia,Encounter,Noarlunga South Outside,Arripidae,Arripis truttaceus,200.0,2018-01-23
+-35.37,138.38,South Australia,Encounter,Myponga,Dinolestidae,Dinolestes lewini,5.0,2018-02-19
+-35.53,138.15,South Australia,Encounter,Rapid Head Windmills,Carangidae,Trachurus novaezelandiae,100.0,2018-01-24
+-38.41,144.24,Victoria,Point Addis,East of Olives,Carangidae,Seriola lalandi,30.0,2018-03-09
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Carangidae,Seriola lalandi,4.0,2019-02-09
+-38.32,144.72,Victoria,Port Phillip Heads,Point Franklin,Arripidae,Arripis trutta,60.0,2019-02-04
+-37.97,145.01,Victoria,Port Phillip Bay,Halfmoon Bay,Plesiopidae,Trachinops caudimaculatus,20.0,2018-12-06
+-33.59,115.23,Western Australia,Geographe Bay,Coral Gardens 2,Pempheridae,Pempheris multiradiata,5.0,2019-03-30
+-33.59,115.23,Western Australia,Geographe Bay,Coral Gardens 2,Pempheridae,Pempheris multiradiata,8.0,2019-03-30
+-14.07,121.95,Western Australia,Scott & Seringapatam Reefs,Ian's Anchorage,Clupeidae,Clupeidae spp.,1500.0,2018-12-21
+-38.3,144.66,Victoria,Port Phillip Heads,Pt Nepean Inner West,Pempheridae,Pempheris multiradiata,9.0,2019-02-05
+-32.02,115.5,Western Australia,Rottnest Island,Green Island Reserve 1,Carangidae,Seriola lalandi,1.0,2019-05-10
+-31.99,115.56,Western Australia,Rottnest Island,Kingston Reef,Carangidae,Seriola lalandi,10.0,2019-05-13
+-32.02,115.5,Western Australia,Rottnest Island,Green Island Reserve 1,Pempheridae,Pempheris multiradiata,1.0,2019-05-10
+-32.03,115.53,Western Australia,Rottnest Island,Pocillopora Reef,Arripidae,Arripis georgianus,7.0,2019-05-11
+-32.03,115.53,Western Australia,Rottnest Island,Pocillopora Reef,Arripidae,Arripis truttaceus,15.0,2019-05-11
+-32.02,115.56,Western Australia,Rottnest Island,The Count,Pempheridae,Pempheris multiradiata,1.0,2019-05-11
+-32.02,115.55,Western Australia,Rottnest Island,Crystal palace,Pempheridae,Pempheris klunzingeri,2.0,2019-05-12
+-32.02,115.55,Western Australia,Rottnest Island,Crystal palace,Pempheridae,Pempheris klunzingeri,20.0,2019-05-12
+-31.99,115.56,Western Australia,Rottnest Island,Kingston Reef,Pempheridae,Pempheris multiradiata,1.0,2019-05-13
+-31.99,115.58,Western Australia,Rottnest Island,Wadjemup Reef,Pempheridae,Pempheris klunzingeri,50.0,2019-05-13
+-32.02,115.45,Western Australia,Rottnest Island,Eagle Bay,Arripidae,Arripis georgianus,500.0,2019-06-02
+-32.03,115.53,Western Australia,Rottnest Island,Parker Point,Carangidae,Trachurus novaezelandiae,70.0,2019-06-02
+-35.13,150.73,New South Wales,Jervis Bay,Bristol Pt,Pempheridae,Pempheris affinis,1.0,2019-03-31
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Dinolestidae,Dinolestes lewini,1.0,2019-04-01
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Dinolestidae,Dinolestes lewini,5.0,2019-04-01
+-35.11,150.77,New South Wales,Jervis Bay,Bowen Island NW,Dinolestidae,Dinolestes lewini,5.0,2019-04-01
+-35.55,138.13,South Australia,Encounter,Nev's Windmills,Arripidae,Arripis georgianus,4.0,2019-02-17
+-39.08,146.32,Victoria,Wilsons Promontory,Oberon Pt,Plesiopidae,Trachinops caudimaculatus,4.0,2020-03-11
+-39.08,146.23,Victoria,Wilsons Promontory,East Glennie Is,Plesiopidae,Trachinops caudimaculatus,10.0,2020-03-12
+-35.57,138.63,South Australia,Encounter,Granite Island,Arripidae,Arripis georgianus,60.0,2020-03-19
+-35.57,138.63,South Australia,Encounter,Granite Island,Arripidae,Arripis georgianus,1.0,2020-03-19
+-35.59,138.61,South Australia,Encounter,The Bluff,Arripidae,Arripis truttaceus,50.0,2020-03-18
+-35.37,138.38,South Australia,Encounter,Myponga,Dinolestidae,Dinolestes lewini,4.0,2020-03-26
+-35.65,138.24,South Australia,Encounter,Deep Creek,Arripidae,Arripis truttaceus,20.0,2020-03-27
+-35.65,138.24,South Australia,Encounter,Deep Creek,Arripidae,Arripis truttaceus,20.0,2020-03-27
+-34.19,137.47,South Australia,Yorke Peninsula,High Dunes,Arripidae,Arripis georgianus,40.0,2020-02-23
+-34.19,137.47,South Australia,Yorke Peninsula,High Dunes,Pempheridae,Pempheris klunzingeri,20.0,2020-02-23
+-34.23,137.49,South Australia,Yorke Peninsula,Baudinet,Arripidae,Arripis georgianus,5.0,2020-02-23
+-34.13,137.44,South Australia,Yorke Peninsula,Cape Elizabeth North,Arripidae,Arripis georgianus,1.0,2020-02-22
+-35.52,138.18,South Australia,Encounter,Rapid Head East,Pempheridae,Pempheris multiradiata,2.0,2020-02-08
+-35.52,138.18,South Australia,Encounter,Rapid Bay Jetty,Dinolestidae,Dinolestes lewini,10.0,2020-02-08
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Arripidae,Arripis truttaceus,200.0,2020-02-09
+-31.99,115.56,Western Australia,Rottnest Island,Kingston Reef,Carangidae,Seriola lalandi,3.0,2020-05-14
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Arripidae,Arripis georgianus,400.0,2020-05-21
+-31.99,115.56,Western Australia,Rottnest Island,Kingston Reef,Carangidae,Seriola lalandi,3.0,2020-05-14
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Arripidae,Arripis georgianus,1000.0,2020-05-21
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Pempheridae,Pempheris affinis,1.0,2021-04-10
+-32.02,115.5,Western Australia,Rottnest Island,Green Island Reserve 1,Pempheridae,Pempheris klunzingeri,1000.0,2021-05-08
+-35.42,138.32,South Australia,Encounter,Carrickalinga (toilet),Pempheridae,Pempheris multiradiata,1.0,2021-03-10
+-35.52,138.17,South Australia,Encounter,Rapid Head SZ,Pempheridae,Pempheris multiradiata,100.0,2021-03-23
+-35.52,138.17,South Australia,Encounter,Rapid Head SZ,Pempheridae,Pempheris multiradiata,1.0,2021-03-23
+-35.52,138.17,South Australia,Encounter,Rapid Head SZ,Pempheridae,Pempheris multiradiata,1.0,2021-03-23
+-35.74,138.04,South Australia,Encounter,Pancake Rock,Arripidae,Arripis georgianus,100.0,2021-03-22
+-35.39,138.35,South Australia,Encounter,Myponga South,Pempheridae,Pempheris klunzingeri,1.0,2021-03-11
+-35.38,138.36,South Australia,Encounter,Ripple Rock,Pempheridae,Pempheris multiradiata,3.0,2021-03-11
+-35.38,138.36,South Australia,Encounter,Ripple Rock,Pempheridae,Pempheris multiradiata,2.0,2021-03-11
+-35.39,138.35,South Australia,Encounter,Myponga South,Pempheridae,Pempheris multiradiata,1.0,2021-03-11
+-35.39,138.35,South Australia,Encounter,Myponga South,Pempheridae,Pempheris multiradiata,1.0,2021-03-11
+-35.53,138.15,South Australia,Encounter,Rapid Head South,Pempheridae,Pempheris multiradiata,5.0,2021-03-10
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Dinolestidae,Dinolestes lewini,10.0,2021-03-20
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Pempheridae,Pempheris klunzingeri,1.0,2021-03-20
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Dinolestidae,Dinolestes lewini,25.0,2021-03-20
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Dinolestidae,Dinolestes lewini,10.0,2021-03-20
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Pempheridae,Pempheris klunzingeri,21.0,2021-03-20
+-35.37,138.37,South Australia,Encounter,Carrickalinga North Site 2,Dinolestidae,Dinolestes lewini,20.0,2021-03-21
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris klunzingeri,10.0,2021-03-21
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris klunzingeri,2.0,2021-03-21
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris klunzingeri,1.0,2021-03-21
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris multiradiata,3.0,2021-03-21
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris multiradiata,5.0,2021-03-21
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris multiradiata,5.0,2021-03-21
+-35.27,138.43,South Australia,Encounter,Aldinga Pinacles,Carangidae,Seriola lalandi,1.0,2021-02-15
+-35.27,138.43,South Australia,Encounter,Aldinga Pinacles,Carangidae,Seriola lalandi,1.0,2021-02-15
+-35.37,138.37,South Australia,Encounter,Carrickalinga North Site 2,Arripidae,Arripis truttaceus,150.0,2021-03-21
+-14.66,145.45,Queensland,GBR - North,Watsons-Turtle Reef,Ptereleotridae,Aioliops novaeguineae,35.0,2021-11-15
+-14.51,145.52,Queensland,GBR - North,Day Reef Bommie,Ptereleotridae,Aioliops novaeguineae,8.0,2021-11-15
+-12.24,122.98,Western Australia,Ashmore/Cartier,Guardian Reef,Ptereleotridae,Aioliops novaeguineae,20.0,2021-10-12
+-11.65,136.91,Northern Territory,Wessel,Truant Bank SW,Plotosidae,Plotosus lineatus,20.0,2021-09-02
+-11.65,136.91,Northern Territory,Wessel,Truant Bank SW,Plotosidae,Plotosus lineatus,80.0,2021-09-02
+-38.11,144.66,Victoria,Port Phillip Bay,Steeles Rocks,Plesiopidae,Trachinops caudimaculatus,8.0,2022-02-11
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris multiradiata,5.0,2022-02-12
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris klunzingeri,10.0,2022-02-12
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris klunzingeri,10.0,2022-02-12
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris klunzingeri,10.0,2022-02-12
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris multiradiata,10.0,2022-02-12
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris multiradiata,20.0,2022-02-12
+-35.51,138.22,South Australia,Encounter,Lasseters Reef,Pempheridae,Pempheris multiradiata,10.0,2022-02-12
+-35.53,138.15,South Australia,Encounter,Rapid Head South,Pempheridae,Pempheris klunzingeri,5.0,2022-02-11
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Arripidae,Arripis georgianus,20.0,2022-02-13
+-35.27,138.43,South Australia,Encounter,Aldinga Reef,Arripidae,Arripis georgianus,50.0,2022-02-13
+-35.52,138.16,South Australia,Encounter,Rapid Head SZ Site2,Pempheridae,Pempheris klunzingeri,1.0,2022-02-12
+-35.55,138.13,South Australia,Encounter,Nev's Windmills,Pempheridae,Pempheris multiradiata,1.0,2022-01-30
+-35.55,138.13,South Australia,Encounter,Nev's Windmills,Pempheridae,Pempheris multiradiata,1.0,2022-01-30
+-35.52,138.16,South Australia,Encounter,Rapid Head SZ Site2,Pempheridae,Pempheris klunzingeri,10.0,2022-02-12
+-35.52,138.16,South Australia,Encounter,Rapid Head SZ Site2,Pempheridae,Pempheris klunzingeri,4.0,2022-02-12
+-35.53,138.15,South Australia,Encounter,Rapid Head South,Pempheridae,Pempheris multiradiata,1.0,2022-02-11
+-35.53,138.15,South Australia,Encounter,Rapid Head South,Pempheridae,Pempheris multiradiata,1.0,2022-02-11
+-35.53,138.15,South Australia,Encounter,Rapid Head South,Pempheridae,Pempheris multiradiata,1.0,2022-02-11
+-34.96,138.48,South Australia,Adelaide,Broken Bottom,Dinolestidae,Dinolestes lewini,5.0,2022-04-05
+-35.52,138.16,South Australia,Encounter,Rapid Head SZ Site2,Pempheridae,Pempheris multiradiata,10.0,2022-02-12
+-35.55,138.13,South Australia,Encounter,Nev's Windmills,Pempheridae,Pempheris multiradiata,1.0,2022-01-30
+-35.07,150.7,New South Wales,Jervis Bay,Plantation Point North,Plesiopidae,Trachinops taeniatus,3.0,2022-02-12
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris affinis,2.0,2022-02-12
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Pempheridae,Pempheris affinis,1.0,2022-02-12
+-35.4,138.34,South Australia,Encounter,Carrickalinga Head,Pempheridae,Pempheris multiradiata,10.0,2023-02-20
+-35.51,138.21,South Australia,Encounter,2nd Valley Boat Shed,Arripidae,Arripis truttaceus,30.0,2023-02-17
+-35.55,138.13,South Australia,Encounter,Nev's Windmills,Arripidae,Arripis truttaceus,1000.0,2023-02-18
+-35.55,138.13,South Australia,Encounter,Nev's Windmills,Arripidae,Arripis truttaceus,800.0,2023-02-18
+-35.52,138.18,South Australia,Encounter,Rapid Head East,Arripidae,Arripis truttaceus,40.0,2023-01-15
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Carangidae,Seriola lalandi,4.0,2023-05-06
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Carangidae,Seriola lalandi,4.0,2023-05-06
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Carangidae,Seriola lalandi,4.0,2023-05-06
+-35.83,150.23,New South Wales,Batemans,Burrewarra Point NW,Dinolestidae,Dinolestes lewini,50.0,2012-04-28
+-27.39,153.55,Queensland,Moreton,Flat Rock,Carangidae,Seriola lalandi,1.0,2023-06-11
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Arripidae,Arripis georgianus,500.0,2023-04-29
+-32.02,115.45,Western Australia,Rottnest Island,Fish Hook Bay,Arripidae,Arripis georgianus,500.0,2023-04-29
+-35.82,150.23,New South Wales,Batemans,Jimmies Island,Pempheridae,Pempheris affinis,20.0,2024-02-24
+-35.52,138.16,South Australia,Encounter,Rapid Head SZ Site2,Carangidae,Seriola lalandi,2.0,2024-02-19
+-35.37,138.37,South Australia,Encounter,Carrickalinga North Site 2,Arripidae,Arripis truttaceus,450.0,2024-02-18
+-35.37,138.37,South Australia,Encounter,Carrickalinga North Site 2,Arripidae,Arripis truttaceus,500.0,2024-02-18
+-32.71,152.16,New South Wales,Port Stephens,Halifax Park,Arripidae,Arripis trutta,4.0,2024-03-09
+-20.51,115.56,Western Australia,Pilbara,Montebellos SE,Clupeidae,Clupeidae spp.,300.0,2023-10-20
+-20.51,115.56,Western Australia,Pilbara,Montebellos SE,Clupeidae,Clupeidae spp.,200.0,2023-10-20
+-35.83,150.23,New South Wales,Batemans,Burrewarra Point,Carangidae,Trachurus novaezelandiae,500.0,2024-03-10
+-35.75,150.26,New South Wales,Batemans,Tollgates Outer Mid Bay,Dinolestidae,Dinolestes lewini,200.0,2024-03-10
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Carangidae,Trachurus novaezelandiae,20.0,2024-09-15
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Plesiopidae,Trachinops taeniatus,7.0,2024-09-15
+-35.12,150.71,New South Wales,Jervis Bay,Captains Pt,Plesiopidae,Trachinops taeniatus,15.0,2024-09-15
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Dinolestidae,Dinolestes lewini,15.0,2025-01-25
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Dinolestidae,Dinolestes lewini,15.0,2025-01-25
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Dinolestidae,Dinolestes lewini,5.0,2025-01-25
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Plesiopidae,Trachinops caudimaculatus,1.0,2025-01-25
+-38.28,144.7,Victoria,Port Phillip Heads,Annulus (Popes Eye),Pempheridae,Pempheris multiradiata,3.0,2024-02-17
+-35.59,138.61,South Australia,Encounter,The Bluff,Pempheridae,Pempheris multiradiata,1.0,2025-06-20
+-37.11,149.92,New South Wales,Eden,West Navy Jetty,Dinolestidae,Dinolestes lewini,1.0,2025-11-22
+-40.23,148.03,Tasmania,Flinders Island,Trousers Point,Plesiopidae,Trachinops caudimaculatus,15.0,2026-04-04
+-32.71,152.16,New South Wales,Port Stephens,Little Beach West,Carangidae,Seriola lalandi,4.0,2026-03-06
+-34.66,137.89,South Australia,Yorke Peninsula,Port Julia,Arripidae,Arripis truttaceus,800.0,2025-11-26
+-35.08,150.8,New South Wales,Jervis Bay,The Docks 1 The Gulch,Arripidae,Arripis trutta,3.0,2026-05-02
+-35.12,150.75,New South Wales,Jervis Bay,Murrays Reef,Carangidae,Seriola lalandi,1.0,2026-05-01
