@@ -49,20 +49,23 @@
         <a href="#fish-depth">
           05 <span>Fish depth</span>
         </a>
+        <a href="#fish-locations">
+          06 <span>Fish locations</span>
+        </a>
         <a href="#turtle-seasonality">
-          06 <span>Turtle seasonality</span>
+          07 <span>Turtle seasonality</span>
         </a>
         <a href="#turtle-observation">
-          07 <span>Turtle observation</span>
+          08 <span>Turtle observation</span>
         </a>
         <a href="#whale-flow">
-          08 <span>Whale movement</span>
+          09 <span>Whale movement</span>
         </a>
         <a href="#sst-seasonal">
-          09 <span>Ocean temperatures</span>
+          10 <span>Ocean temperatures</span>
         </a>
         <a href="#sst-turtle-comparison">
-          10 <span>Temperature vs Turtle nesting</span>
+          11 <span>Temperature vs Turtle nesting</span>
         </a>
       </nav>
 
@@ -275,10 +278,45 @@
         depth distributions.
       </p>
     </section>
+    <!-- GRAPH 11 -->
+    <section class="visual-section" id="fish-locations">
+      <div class="section-heading">
+        <p class="section-kicker">
+          06 / REEF-FISH LOCATIONS
+        </p>
+
+        <h2>
+          Where Are Reef Fish Observed in Australia?
+        </h2>
+
+        <p class="chart-question">
+          Where have reef fish been recorded across Australian waters?
+        </p>
+      </div>
+
+      <div class="chart-card">
+        <div
+          id="reef-fish-location-chart"
+          aria-label="Dot map showing recorded reef fish observation locations across Australia">
+        </div>
+
+        <p class="chart-note">
+          Each dot represents a recorded reef-fish survey location.
+          Larger dots indicate more fish recorded at the location,
+          while colour identifies the fish family.
+        </p>
+      </div>
+
+      <p class="source-note">
+        <strong>Data:</strong>
+        Reef-fish survey observations recorded in Australian waters
+        throughout 2006-2026.
+      </p>
+    </section>
     <!-- GRAPH 5 -->
     <section class="visual-section" id="turtle-seasonality">
       <div class="section-heading">
-        <p class="section-kicker">06 / TURTLE NESTING SEASONALITY</p>
+        <p class="section-kicker">07 / TURTLE NESTING SEASONALITY</p>
 
         <h2>
           When are turtle nesting observations concentrated?
@@ -340,7 +378,7 @@
     <!-- GRAPH 6 -->
     <section class="visual-section" id="turtle-observation">
       <div class="section-heading">
-        <p class="section-kicker">07 / TURTLE OBSERVATION</p>
+        <p class="section-kicker">08 / TURTLE OBSERVATION</p>
 
         <h2>How does turtle observation vary?</h2>
 
@@ -385,7 +423,7 @@
     <!-- GRAPH 8: Humpback Whale Flow Map -->
     <section class="visual-section" id="whale-flow">
       <div class="section-heading">
-        <p class="section-kicker">08 / WHALE MOVEMENT</p>
+        <p class="section-kicker">09 / WHALE MOVEMENT</p>
 
         <h2>The Journey Of Humpback Whales</h2>
 
@@ -416,7 +454,7 @@
     <!-- GRAPH 9: Seasonal Ocean Temperatures -->
     <section class="visual-section" id="sst-seasonal">
       <div class="section-heading">
-        <p class="section-kicker">09 / SEASONAL OCEAN TEMPERATURES</p>
+        <p class="section-kicker">10 / SEASONAL OCEAN TEMPERATURES</p>
 
         <h2>
           How do ocean temperatures vary across Australia?
@@ -450,7 +488,7 @@
     <!-- GRAPH 10: SST and Turtle Nesting Comparison -->
     <section class="visual-section" id="sst-turtle-comparison">
       <div class="section-heading">
-        <p class="section-kicker">10 / TEMPERATURE vs TURTLE NESTING</p>
+        <p class="section-kicker">11 / TEMPERATURE vs TURTLE NESTING</p>
 
         <h2>How do seasonal temperatures and turtle nesting vary by month?</h2>
 
@@ -473,6 +511,7 @@
         Monthly sea surface temperature averages vs turtle nesting observations, matched by calendar month.
       </p>
     </section>
+    
   </main>
 
   <!-- FOOTER -->
@@ -761,6 +800,34 @@
         'The temperature and turtle nesting comparison could not be loaded. ' +
         'Check the Graph 10 JSON file and sst_turtle_monthly_comparison.csv path.' +
         '</p>';
+      console.error(error);
+    });
+    /*
+    * GRAPH 11
+    * Reef-fish observation location dot map
+    */
+    vegaEmbed(
+      '#reef-fish-location-chart',
+      'js/reef_fish_locations (Graph11).vg.json',
+      {
+        actions: {
+          export: true,
+          source: true,
+          compiled: false,
+          editor: false
+        },
+        renderer: 'svg',
+        tooltip: {
+          theme: 'custom'
+        }
+      }
+    ).catch((error) => {
+      document.querySelector('#reef-fish-location-chart').innerHTML =
+        '<p class="chart-error">' +
+        'The reef-fish location map could not be loaded. ' +
+        'Check the Graph 2 JSON file and CSV path.' +
+        '</p>';
+
       console.error(error);
     });
   </script>
